@@ -1,0 +1,18 @@
+2023-07-16 12:31:57,118 INFO o.s.b.StartupInfoLogger [main] Starting CalculatorProblemV2ApplicationTests using Java 17.0.5 with PID 14648 (started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-16 12:31:57,127 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "development"
+2023-07-16 12:32:03,916 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-16 12:32:04,786 INFO o.s.b.StartupInfoLogger [main] Started CalculatorProblemV2ApplicationTests in 8.152 seconds (process running for 10.876)
+2023-07-16 12:32:05,744 INFO o.s.b.StartupInfoLogger [main] Starting CompanyRiskScoreControllerTest using Java 17.0.5 with PID 14648 (started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-16 12:32:05,745 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "development"
+2023-07-16 12:32:06,496 INFO o.s.b.StartupInfoLogger [main] Started CompanyRiskScoreControllerTest in 0.779 seconds (process running for 12.586)
+2023-07-16 12:32:06,790 INFO c.u.c.c.CompanyRiskScoreController [main] Received GET request for Company_Risk_Score with companyName: company 1 
+2023-07-16 12:32:07,008 INFO c.u.c.c.CompanyRiskScoreController [main] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-16 12:32:07,173 INFO c.u.c.c.CompanyRiskScoreController [main] Received POST request for New_Company_Risk_Score_Row with body: CompanyRiskScoreRequest [companyName=TCSSS, parameters={Information Security=94, Resilience=12, Conduct=70, Respect=50}]
+2023-07-16 12:33:27,213 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 24472 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-16 12:33:27,214 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-16 12:33:27,976 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-16 12:33:28,097 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.933 seconds (process running for 157.859)
+2023-07-16 12:33:30,625 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 24472 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-16 12:33:30,626 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-16 12:33:31,209 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-16 12:33:31,278 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.679 seconds (process running for 161.041)

@@ -16,9 +16,10 @@ public interface RiskScoreLevelRepo extends JpaRepository<RiskScoreLevel, Long> 
 //			+ "AND   :score <= FUNCTION('CAST', FUNCTION('SUBSTRING_INDEX', s.score, '-', -1) AS SIGNED)")
 //  
 	
-    @Query(value = "SELECT s.level FROM RiskScoreLevel s WHERE :score >= CAST(SUBSTRING_INDEX(s.score, '-', 1) AS INTEGER) AND :score <= CAST(SUBSTRING_INDEX(s.score, '-', -1) AS INTEGER)")
-	String findLevelByScore(int score);
+//    @Query(value = "SELECT s.level FROM RiskScoreLevel s WHERE :score >= CAST(SUBSTRING_INDEX(s.score, '-', 1) AS INTEGER) AND :score <= CAST(SUBSTRING_INDEX(s.score, '-', -1) AS INTEGER)")
+//	String findLevelByScore(int score);
     
+    public RiskScoreLevel findByLevel(String level);
 	
 	
 }

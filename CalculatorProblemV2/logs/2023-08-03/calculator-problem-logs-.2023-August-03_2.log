@@ -1,0 +1,53 @@
+2023-08-03 11:34:16,958 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 15340 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-08-03 11:34:16,969 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-08-03 11:34:21,792 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 11:34:22,184 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 5.719 seconds (process running for 6.555)
+2023-08-03 11:34:25,154 INFO c.u.c.c.OutputController [http-nio-8092-exec-2] Received GET request to fetch all Output table Params
+2023-08-03 11:34:25,161 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-03 11:34:25,194 INFO c.u.c.c.OutputController [http-nio-8092-exec-1] Received GET request to fetch all Output table Params
+2023-08-03 11:34:25,197 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-08-03 11:34:25,199 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-03 11:34:25,213 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-08-03 11:34:25,270 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-08-03 11:34:25,276 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-08-03 11:34:29,925 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:29,937 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:38,166 INFO c.u.c.c.OutputController [http-nio-8092-exec-7] Received GET request to fetch all Output table Params
+2023-08-03 11:34:38,174 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-03 11:34:38,180 INFO c.u.c.c.OutputController [http-nio-8092-exec-8] Received GET request to fetch all Output table Params
+2023-08-03 11:34:38,183 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Updating Output table
+2023-08-03 11:34:38,187 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-03 11:34:38,190 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Successfully fetched all the data from the table 'output'
+2023-08-03 11:34:38,196 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-08-03 11:34:38,201 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-08-03 11:34:42,605 INFO c.u.c.c.OutputController [http-nio-8092-exec-2] Received GET request to fetch all Output table Params
+2023-08-03 11:34:42,610 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-03 11:34:42,624 INFO c.u.c.c.OutputController [http-nio-8092-exec-1] Received GET request to Trigger recalculation of output and  fetch all Outputs
+2023-08-03 11:34:42,672 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Successfully Fetched data from the database company_risk_score
+2023-08-03 11:34:42,672 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Updating RiskDimensionTbl
+2023-08-03 11:34:42,686 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] [conduct, information_security, resilience]
+2023-08-03 11:34:42,691 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] [weight_conduct, weight_information_security, weight_resilience]
+2023-08-03 11:34:42,693 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Are array list equal ? false
+2023-08-03 11:34:42,694 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] uniqueRiskScoreParameters.size() > riskDimensionDimensions.size() creae new dimension list: [conduct, information_security, resilience]
+2023-08-03 11:34:42,737 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: Credit Suisse
+2023-08-03 11:34:42,748 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,752 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,793 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,799 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,805 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,811 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,830 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,836 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,845 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,851 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,862 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,869 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,874 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,879 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,891 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,895 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,898 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:34:42,904 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:34:42,919 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: Credit Suisse
+2023-08-03 11:34:42,946 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-08-03 11:34:42,951 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'

@@ -1,0 +1,54 @@
+2023-08-04 00:06:20,790 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=6h13m25s983ms850µs900ns).
+2023-08-04 00:06:55,811 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-08-04 00:06:55,811 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Updating RiskDimensionTbl
+2023-08-04 00:06:55,812 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] [weight_resilience, weight_conduct, weight_information_security, weight_temp_param_one]
+2023-08-04 00:06:55,813 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] [weight_conduct, weight_information_security, weight_resilience, weight_temp_param_one]
+2023-08-04 00:06:55,814 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Are array list equal ? true
+2023-08-04 00:06:55,814 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Credit Suisse
+2023-08-04 00:06:55,815 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,815 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,821 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,823 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,824 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,826 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,829 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,831 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,833 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,835 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,838 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,840 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,841 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,844 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,847 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,849 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,850 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,851 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,854 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,856 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,857 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-04 00:06:55,860 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,863 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Credit Suisse
+2023-08-04 00:06:55,866 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-08-04 00:06:55,868 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,868 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,873 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,875 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,876 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,878 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,881 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,882 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,884 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,886 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,889 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,891 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,892 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,894 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,896 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,898 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,899 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,901 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,903 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,905 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,906 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-08-04 00:06:55,908 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-04 00:06:55,911 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro

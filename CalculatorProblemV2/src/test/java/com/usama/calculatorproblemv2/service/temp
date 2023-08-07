@@ -1,0 +1,23 @@
+@ExtendWith(SpringExtension.class) 
+@SpringBootTest 
+@AutoConfigureMockMvc 
+class RegisterUseCaseIntegrationTest { 
+    
+    @Autowired 
+    private MockMvc mockMvc; 
+    @Autowired 
+    private ObjectMapper objectMapper; 
+    @Autowired 
+    private UserRepository userRepository; 
+    @Test 
+    void registrationWorksThroughAllLayers() throws Exception { 
+        UserResource user = new UserResource("xyz", "xyz@gmail.com"); 
+        mockMvc.perform(post("/forums/{forumId}/register", 42L)
+                .contentType("application/json") 
+                .param("sendWelcomeMail", "true") 
+                .content(objectMapper.writeValueAsString(user))) 
+                .andExpect(status().isOk()); 
+        UserEntity userEntity = userRepository.findByName("xyz"); 
+        assertThat(userEntity.getEmail()).isEqualTo("xyz@gmail.com"); 
+    } 
+}

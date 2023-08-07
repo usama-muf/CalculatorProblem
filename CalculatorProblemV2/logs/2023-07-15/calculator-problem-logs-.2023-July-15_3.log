@@ -1,0 +1,5 @@
+2023-07-15 16:52:58,862 INFO o.s.b.StartupInfoLogger [main] Starting CompanyRiskScoreControllerTest using Java 17.0.5 with PID 25280 (started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-15 16:52:58,869 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "development"
+2023-07-15 16:53:00,973 INFO o.s.b.StartupInfoLogger [main] Started CompanyRiskScoreControllerTest in 2.585 seconds (process running for 3.857)
+2023-07-15 16:53:01,110 INFO c.u.c.c.CompanyRiskScoreController [main] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-15 16:53:01,255 INFO c.u.c.c.CompanyRiskScoreController [main] Received POST request for New_Company_Risk_Score_Row with body: CompanyRiskScoreRequest [companyName=TCS, parameters={Information Security=94, Resilience=12, Conduct=70, Respect=50}]

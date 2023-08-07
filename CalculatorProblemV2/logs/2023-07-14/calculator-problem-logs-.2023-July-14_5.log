@@ -1,0 +1,11 @@
+2023-07-14 14:45:55,270 INFO o.s.b.StartupInfoLogger [main] Starting CalculatorProblemV2ApplicationTests using Java 17.0.5 with PID 14604 (started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-14 14:45:55,285 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "development"
+2023-07-14 14:46:04,028 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-14 14:46:04,859 INFO o.s.b.StartupInfoLogger [main] Started CalculatorProblemV2ApplicationTests in 10.222 seconds (process running for 12.59)
+2023-07-14 14:46:05,957 ERROR c.u.c.s.CompanyRiskScoreService [main] No company found with companyName: Example Company in company_risk_score tbl
+2023-07-14 14:46:05,980 ERROR c.u.c.s.CompanyRiskScoreService [main] No company found with companyName: Duplicate Company in company_risk_score tbl
+2023-07-14 14:46:06,006 ERROR c.u.c.s.CompanyRiskScoreService [main] No company found with companyName: Exceptional Company in company_risk_score tbl
+2023-07-14 14:46:06,020 ERROR c.u.c.s.CompanyRiskScoreService [main] No company found with companyName: Example Company in company_risk_score tbl
+2023-07-14 14:46:06,034 ERROR c.u.c.s.CompanyRiskScoreService [main] No company found with companyName: Nonexistent Company in company_risk_score tbl
+2023-07-14 14:46:06,065 ERROR c.u.c.s.CompanyRiskScoreService [main] No company found with companyName:  in company_risk_score tbl
+2023-07-14 14:46:06,078 ERROR c.u.c.s.CompanyRiskScoreService [main] No company found with companyName: Performance Company in company_risk_score tbl

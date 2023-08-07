@@ -1,0 +1,541 @@
+2023-07-30 12:31:19,492 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 12:31:19,549 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 12:31:28,687 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 12:31:29,362 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 10.629 seconds (process running for 12.014)
+2023-07-30 12:31:31,617 INFO c.u.c.c.RiskScoreLevelController [http-nio-8092-exec-1] Received GET request for table risk_score_level
+2023-07-30 12:31:31,629 INFO c.u.c.s.RiskScoreLevelService [http-nio-8092-exec-1] Fetching all the Data from Risk_Score_Level tbl
+2023-07-30 12:31:31,629 INFO c.u.c.c.RiskScoreLevelController [http-nio-8092-exec-1] Successfully fetched data from the table risk_score_level
+2023-07-30 12:31:31,710 INFO c.u.c.c.RiskScoreLevelController [http-nio-8092-exec-2] Received GET request for table risk_score_level
+2023-07-30 12:31:31,720 INFO c.u.c.s.RiskScoreLevelService [http-nio-8092-exec-2] Fetching all the Data from Risk_Score_Level tbl
+2023-07-30 12:31:31,720 INFO c.u.c.c.RiskScoreLevelController [http-nio-8092-exec-2] Successfully fetched data from the table risk_score_level
+2023-07-30 12:32:00,093 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:32:00,097 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:32:00,113 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:32:00,115 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:32:00,143 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:32:00,144 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:32:00,150 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:32:00,173 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:32:00,234 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:32:00,248 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:32:00,250 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:32:00,265 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:32:00,265 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:32:00,272 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:32:00,284 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:32:00,307 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:32:00,320 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:32:00,320 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:32:00,334 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:32:00,334 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:32:00,339 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:32:00,348 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:34:00,033 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:34:00,033 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:34:00,044 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:34:00,044 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:34:00,053 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:34:00,054 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:34:00,058 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:34:00,062 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:34:00,076 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:34:00,083 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:34:00,083 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:34:00,091 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:34:00,091 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:34:00,096 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:34:00,101 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:34:00,116 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:34:00,124 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:34:00,125 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:34:00,133 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:34:00,134 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:34:00,138 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:34:00,143 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:36:00,021 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:36:00,021 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:36:00,028 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:36:00,028 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:36:00,036 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:36:00,036 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:36:00,040 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:36:00,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:36:00,066 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:36:00,073 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:36:00,073 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:36:00,081 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:36:00,081 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:36:00,085 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:36:00,091 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:36:00,105 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:36:00,112 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:36:00,112 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:36:00,119 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:36:00,119 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:36:00,123 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:36:00,127 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:37:46,387 INFO c.u.c.c.RiskScoreLevelController [http-nio-8092-exec-8] Received GET request for table risk_score_level
+2023-07-30 12:37:46,395 INFO c.u.c.s.RiskScoreLevelService [http-nio-8092-exec-8] Fetching all the Data from Risk_Score_Level tbl
+2023-07-30 12:37:46,395 INFO c.u.c.c.RiskScoreLevelController [http-nio-8092-exec-8] Successfully fetched data from the table risk_score_level
+2023-07-30 12:37:46,400 INFO c.u.c.c.RiskScoreLevelController [http-nio-8092-exec-9] Received GET request for table risk_score_level
+2023-07-30 12:37:46,407 INFO c.u.c.s.RiskScoreLevelService [http-nio-8092-exec-9] Fetching all the Data from Risk_Score_Level tbl
+2023-07-30 12:37:46,407 INFO c.u.c.c.RiskScoreLevelController [http-nio-8092-exec-9] Successfully fetched data from the table risk_score_level
+2023-07-30 12:38:00,028 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:38:00,028 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:38:00,035 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:38:00,035 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:38:00,042 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:38:00,042 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:38:00,046 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:38:00,052 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:38:00,070 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:38:00,076 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:38:00,076 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:38:00,083 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:38:00,083 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:38:00,087 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:38:00,092 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:38:00,106 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:38:00,113 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:38:00,113 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:38:00,120 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:38:00,120 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:38:00,124 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:38:00,128 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:40:00,456 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:40:00,456 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:40:00,464 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:40:00,464 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:40:00,472 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:40:00,472 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:40:00,475 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:40:00,478 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:40:00,496 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:40:00,501 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:40:00,502 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:40:00,507 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:40:00,507 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:40:00,510 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:40:00,513 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:40:00,524 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:40:00,528 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:40:00,529 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:40:00,535 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:40:00,535 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:40:00,538 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:40:00,542 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:42:00,033 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:42:00,033 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:42:00,041 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:42:00,042 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:42:00,050 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:42:00,050 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:42:00,053 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:42:00,057 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:42:00,078 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:42:00,084 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:42:00,084 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:42:00,090 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:42:00,090 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:42:00,094 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:42:00,098 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:42:00,110 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:42:00,117 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:42:00,117 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:42:00,124 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:42:00,124 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:42:00,128 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:42:00,132 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:44:00,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:44:00,020 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:44:00,029 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:44:00,030 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:44:00,037 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:44:00,037 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:44:00,040 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:44:00,044 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:44:00,058 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:44:00,065 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:44:00,065 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:44:00,071 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:44:00,071 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:44:00,074 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:44:00,078 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:44:00,089 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:44:00,094 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:44:00,094 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:44:00,101 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:44:00,101 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:44:00,104 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:44:00,107 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:46:00,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:46:00,012 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:46:00,018 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:46:00,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:46:00,027 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:46:00,027 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:46:00,030 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:46:00,042 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:46:00,065 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:46:00,072 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:46:00,073 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:46:00,079 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:46:00,079 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:46:00,083 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:46:00,086 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:46:00,098 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:46:00,103 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:46:00,103 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:46:00,111 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:46:00,111 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:46:00,114 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:46:00,118 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:48:00,022 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:48:00,023 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:48:00,031 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:48:00,032 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:48:00,040 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:48:00,041 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:48:00,044 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:48:00,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:48:00,060 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:48:00,069 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:48:00,069 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:48:00,078 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:48:00,079 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:48:00,082 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:48:00,088 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:48:00,099 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:48:00,107 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:48:00,107 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:48:00,113 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:48:00,113 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:48:00,116 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:48:00,119 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:50:00,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:50:00,018 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:50:00,025 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:50:00,025 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:50:00,031 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:50:00,032 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:50:00,034 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:50:00,038 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:50:00,049 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:50:00,054 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:50:00,054 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:50:00,058 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:50:00,058 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:50:00,061 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:50:00,063 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:50:00,074 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:50:00,080 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:50:00,081 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:50:00,087 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:50:00,087 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:50:00,090 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:50:00,093 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:52:00,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:52:00,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:52:00,015 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:52:00,016 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:52:00,031 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:52:00,031 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:52:00,035 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:52:00,038 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:52:00,055 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:52:00,062 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:52:00,062 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:52:00,068 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:52:00,068 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:52:00,071 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:52:00,076 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:52:00,086 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:52:00,093 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:52:00,093 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:52:00,100 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:52:00,100 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:52:00,104 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:52:00,108 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:54:00,025 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:54:00,026 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:54:00,032 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:54:00,032 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:54:00,037 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:54:00,038 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:54:00,041 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:54:00,044 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:54:00,056 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:54:00,063 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:54:00,063 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:54:00,072 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:54:00,073 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:54:00,078 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:54:00,082 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:54:00,094 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:54:00,100 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:54:00,101 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:54:00,107 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:54:00,107 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:54:00,110 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:54:00,113 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:56:00,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:56:00,015 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:56:00,022 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:56:00,022 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:56:00,028 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:56:00,028 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:56:00,031 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:56:00,034 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:56:00,046 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:56:00,052 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:56:00,052 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:56:00,058 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:56:00,058 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:56:00,061 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:56:00,065 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:56:00,074 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:56:00,081 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:56:00,081 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:56:00,086 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:56:00,086 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:56:00,089 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:56:00,093 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:58:00,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 12:58:00,019 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 12:58:00,024 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:58:00,024 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:58:00,029 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:58:00,029 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:58:00,032 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 12:58:00,036 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 12:58:00,052 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 12:58:00,060 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:58:00,060 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:58:00,065 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:58:00,065 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:58:00,068 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 12:58:00,071 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 12:58:00,080 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 12:58:00,086 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:58:00,086 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:58:00,092 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 12:58:00,093 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:58:00,096 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 12:58:00,099 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 12:58:10,807 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 12:58:10,809 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 12:58:11,917 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scoreCapController' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\controller\ScoreCapController.class]: Failed to instantiate [com.usama.calculatorproblemv2.controller.ScoreCapController]: Constructor threw exception
+2023-07-30 12:58:11,946 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scoreCapController' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\controller\ScoreCapController.class]: Failed to instantiate [com.usama.calculatorproblemv2.controller.ScoreCapController]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:314) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) [spring-boot-3.1.0.jar:3.1.0]
+	at com.usama.calculatorproblemv2.CalculatorProblemV2Application.main(CalculatorProblemV2Application.java:14) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-3.1.0.jar:3.1.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.usama.calculatorproblemv2.controller.ScoreCapController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:323) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 24 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	riskScoreLevelService cannot be resolved or is not a field
+	Logger cannot be resolved to a type
+	riskScoreLevelService cannot be resolved or is not a field
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at com.usama.calculatorproblemv2.controller.ScoreCapController.<init>(ScoreCapController.java:28) ~[classes/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:323) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 24 more
+2023-07-30 12:58:16,518 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 12:58:16,520 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 12:58:17,408 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 12:58:17,526 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 1.082 seconds (process running for 1619.76)
+2023-07-30 12:58:19,039 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 12:58:19,040 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 12:58:19,579 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 12:58:19,651 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.645 seconds (process running for 1621.885)
+2023-07-30 12:59:01,164 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 12:59:01,164 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 12:59:01,770 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 12:59:01,843 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.703 seconds (process running for 1664.078)
+2023-07-30 12:59:12,577 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 12:59:12,577 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 12:59:13,049 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 12:59:13,111 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.558 seconds (process running for 1675.346)
+2023-07-30 13:00:00,021 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 13:00:00,021 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 13:00:00,034 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:00:00,035 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:00:00,042 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:00:00,043 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:00:00,045 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:00:00,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 13:00:00,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 13:00:00,067 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:00:00,067 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:00:00,072 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:00:00,072 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:00:00,075 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:00:00,078 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 13:00:00,088 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 13:00:00,094 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:00:00,095 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:00:00,100 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:00:00,101 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:00:00,104 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:00:00,107 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 13:00:22,555 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:00:22,557 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:00:23,055 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 13:00:23,105 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.577 seconds (process running for 1745.34)
+2023-07-30 13:00:53,293 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:00:53,293 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:00:53,710 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 13:00:53,760 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.489 seconds (process running for 1775.996)
+2023-07-30 13:01:09,679 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:01:09,679 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:01:10,077 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 13:01:10,140 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.481 seconds (process running for 1792.376)
+2023-07-30 13:01:11,654 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:01:11,654 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:01:12,014 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 13:01:12,055 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.421 seconds (process running for 1794.291)
+2023-07-30 13:01:57,836 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:01:57,837 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:01:58,228 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scoreCapService' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\service\ScoreCapService.class]: Failed to instantiate [com.usama.calculatorproblemv2.service.ScoreCapService]: Constructor threw exception
+2023-07-30 13:01:58,248 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scoreCapService' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\service\ScoreCapService.class]: Failed to instantiate [com.usama.calculatorproblemv2.service.ScoreCapService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:314) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) [spring-boot-3.1.0.jar:3.1.0]
+	at com.usama.calculatorproblemv2.CalculatorProblemV2Application.main(CalculatorProblemV2Application.java:14) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-3.1.0.jar:3.1.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.usama.calculatorproblemv2.service.ScoreCapService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:323) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 24 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error on token ")", { expected after this token
+
+	at com.usama.calculatorproblemv2.service.ScoreCapService.<init>(ScoreCapService.java:17) ~[classes/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:323) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 24 more
+2023-07-30 13:02:12,061 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:02:12,063 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:02:12,443 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 13:02:12,499 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.454 seconds (process running for 1854.735)
+2023-07-30 13:04:00,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 13:04:00,017 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 13:04:00,024 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:04:00,024 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:04:00,033 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:04:00,033 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:04:00,036 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:04:00,039 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 13:04:00,056 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 13:04:00,061 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:04:00,061 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:04:00,066 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:04:00,066 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:04:00,069 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:04:00,073 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 13:04:00,084 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 13:04:00,089 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:04:00,089 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:04:00,096 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:04:00,096 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:04:00,099 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:04:00,102 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-30 13:04:38,776 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:04:38,777 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:04:39,176 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 13:04:39,221 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.471 seconds (process running for 2001.457)
+2023-07-30 13:04:50,005 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:04:50,006 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:04:50,370 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 13:04:50,410 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.426 seconds (process running for 2012.646)
+2023-07-30 13:05:55,513 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 17232 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:05:55,514 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:05:56,022 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-30 13:05:56,091 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.601 seconds (process running for 2078.328)
+2023-07-30 13:06:00,020 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-30 13:06:00,021 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Company 1
+2023-07-30 13:06:00,029 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:06:00,030 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:06:00,039 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:06:00,039 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:06:00,042 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Company 1
+2023-07-30 13:06:00,047 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Company 1
+2023-07-30 13:06:00,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-30 13:06:00,077 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:06:00,077 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:06:00,086 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:06:00,086 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:06:00,089 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-30 13:06:00,094 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-30 13:06:00,107 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-30 13:06:00,114 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:06:00,114 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:06:00,122 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-30 13:06:00,122 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:06:00,125 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-30 13:06:00,129 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro

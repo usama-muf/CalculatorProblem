@@ -1,0 +1,4 @@
+2023-07-12 12:53:15,038 INFO o.s.b.StartupInfoLogger [main] Starting CalculatorProblemV2ApplicationTests using Java 17.0.5 with PID 5648 (started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-12 12:53:15,046 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "development"
+2023-07-12 12:53:18,839 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-12 12:53:19,254 INFO o.s.b.StartupInfoLogger [main] Started CalculatorProblemV2ApplicationTests in 4.517 seconds (process running for 5.878)

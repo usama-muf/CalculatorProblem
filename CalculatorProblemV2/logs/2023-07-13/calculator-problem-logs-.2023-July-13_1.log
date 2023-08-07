@@ -1,0 +1,49 @@
+2023-07-13 14:40:02,642 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 27968 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-13 14:40:02,654 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-13 14:40:08,619 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-13 14:40:09,018 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 7.112 seconds (process running for 11.176)
+2023-07-13 14:40:13,575 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Could not initialize Log4J2 logging from classpath:log4j2-spring.xml
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64) ~[spring-boot-3.1.0.jar:3.1.0]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:355) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) [spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) [spring-boot-3.1.0.jar:3.1.0]
+	at com.usama.calculatorproblemv2.CalculatorProblemV2Application.main(CalculatorProblemV2Application.java:14) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-3.1.0.jar:3.1.0]
+Caused by: java.lang.IllegalStateException: Could not initialize Log4J2 logging from classpath:log4j2-spring.xml
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:296) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:271) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:245) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:335) ~[spring-boot-3.1.0.jar:3.1.0]
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [log4j2-spring.xml] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137) ~[spring-core-6.0.9.jar:6.0.9]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.load(Log4J2LoggingSystem.java:301) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:287) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:271) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:245) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:335) ~[spring-boot-3.1.0.jar:3.1.0]
+	... 24 more

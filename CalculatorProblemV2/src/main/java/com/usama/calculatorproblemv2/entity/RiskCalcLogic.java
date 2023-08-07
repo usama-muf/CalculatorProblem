@@ -14,6 +14,7 @@ public class RiskCalcLogic {
 	
 	@Column(unique = true, nullable = false )
 	private String elementName;
+
 	private String formula;
 
 	public String getElementName() {

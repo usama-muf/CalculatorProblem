@@ -1,0 +1,30 @@
+2023-07-14 03:58:22,141 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-6 housekeeper] HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=3h59m40s414ms731µs200ns).
+2023-07-14 10:07:20,383 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-6 housekeeper] HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=6h9m4s136ms98µs300ns).
+2023-07-14 10:07:38,428 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-14 10:07:38,428 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-14 10:07:38,438 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,442 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,442 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,448 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,453 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,458 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,463 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,473 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-14 10:07:38,489 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-14 10:07:38,498 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,503 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,505 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,508 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,513 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,518 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,521 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,537 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-14 10:07:38,548 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-14 10:07:38,553 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,558 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,563 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,569 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,569 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,578 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,578 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-14 10:07:38,588 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro

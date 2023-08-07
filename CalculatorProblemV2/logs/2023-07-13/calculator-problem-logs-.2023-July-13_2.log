@@ -1,0 +1,665 @@
+2023-07-13 14:41:49,297 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 8360 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-13 14:41:49,309 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-13 14:41:53,292 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-13 14:41:53,669 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 4.825 seconds (process running for 5.537)
+2023-07-13 14:42:44,642 INFO c.u.c.c.OutputController [http-nio-8092-exec-1] Received GET request to fetch all Output table Params
+2023-07-13 14:42:44,874 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-13 14:42:44,942 INFO c.u.c.c.OutputController [http-nio-8092-exec-2] Received GET request to fetch all Output table Params
+2023-07-13 14:42:44,949 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-13 14:42:44,951 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-13 14:42:44,990 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 14:42:44,994 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 14:42:45,322 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 14:42:45,483 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-13 14:42:45,612 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 14:42:45,634 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-13 14:42:45,683 INFO c.u.c.c.OutputController [http-nio-8092-exec-4] Received GET request to fetch all Output table Params
+2023-07-13 14:42:45,692 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-13 14:42:45,702 INFO c.u.c.c.OutputController [http-nio-8092-exec-5] Received GET request to fetch all Output table Params
+2023-07-13 14:42:45,708 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-13 14:42:45,714 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-13 14:42:45,722 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-13 14:42:45,722 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-13 14:42:45,747 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 14:42:45,775 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-13 14:42:45,820 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 14:42:45,840 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-13 14:42:45,889 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-07-13 14:42:45,896 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 14:42:45,897 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 14:42:45,933 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 14:42:45,958 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-13 14:42:45,973 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 14:42:45,989 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-13 14:42:46,034 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 14:42:46,053 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-13 14:42:46,053 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 14:42:46,077 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-13 14:42:46,088 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-13 14:42:46,095 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-13 14:42:46,096 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-13 14:42:46,158 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 14:42:46,175 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 14:42:46,183 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-07-13 14:42:46,200 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-13 14:42:46,340 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 14:42:46,367 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-13 14:42:46,456 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 14:42:46,485 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-13 14:43:30,764 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 14:43:30,766 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 14:43:30,766 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 14:43:30,782 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Successfully Fetched data from the database company_risk_score
+2023-07-13 14:43:30,782 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 14:43:30,797 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Successfully Fetched data from the database company_risk_score
+2023-07-13 14:43:36,303 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 14:43:36,311 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 14:43:36,313 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 14:43:36,313 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Successfully Fetched data from the database company_risk_score
+2023-07-13 14:43:36,328 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 14:43:36,333 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-9] Successfully Fetched data from the database company_risk_score
+2023-07-13 14:43:50,795 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-1] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:43:50,800 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:43:50,805 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-2] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:43:50,810 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:43:54,493 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-4] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:43:54,498 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:43:54,504 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-6] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:43:54,509 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-6] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:43:57,815 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-3] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:43:57,821 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-3] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:43:57,825 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-5] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:43:57,826 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:44:02,933 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-7] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:44:02,937 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:44:02,939 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-8] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:44:02,939 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:45:32,469 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-2] Received POST request with body: RiskCalcLogic [id=null, elementName=dsiofu , formula=oi]
+2023-07-13 14:45:32,516 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Data saved Successfully
+2023-07-13 14:45:43,934 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-4] Received POST request with body: RiskCalcLogic [id=null, elementName=aolfjka lkja f, formula=lkaiw l]
+2023-07-13 14:45:43,951 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Data saved Successfully
+2023-07-13 14:47:28,799 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-5] Received DELETE request for Risk_Calc_logic tbl with Element_Name: aolfjka lkja f 
+2023-07-13 14:47:28,815 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Successfully DELETED from the risk_calc_logic tbl with elementName: aolfjka lkja f
+2023-07-13 14:47:33,455 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-8] Received DELETE request for Risk_Calc_logic tbl with Element_Name: dsiofu 
+2023-07-13 14:47:33,469 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Failed to delete from risk_calc_logic tbl with elementName: dsiofu
+2023-07-13 14:47:33,469 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Entity must not be null
+2023-07-13 14:47:37,461 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-10] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:47:37,466 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-10] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:47:37,472 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-9] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:47:37,478 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-9] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:47:41,052 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-1] Received DELETE request for Risk_Calc_logic tbl with Element_Name: dsiofu 
+2023-07-13 14:47:41,055 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Failed to delete from risk_calc_logic tbl with elementName: dsiofu
+2023-07-13 14:47:41,056 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Entity must not be null
+2023-07-13 14:47:43,597 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-2] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:47:43,602 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:47:43,602 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-4] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:47:43,614 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:47:48,764 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-6] Received DELETE request for Risk_Calc_logic tbl with Element_Name: dsiofu 
+2023-07-13 14:47:48,768 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-6] Failed to delete from risk_calc_logic tbl with elementName: dsiofu
+2023-07-13 14:47:48,768 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-6] Entity must not be null
+2023-07-13 14:47:53,538 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-3] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:47:53,542 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-3] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:47:53,546 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-5] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:47:53,549 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:48:18,001 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-7] Received DELETE request for Risk_Calc_logic tbl with Element_Name: dsiofu 
+2023-07-13 14:48:18,005 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Failed to delete from risk_calc_logic tbl with elementName: dsiofu
+2023-07-13 14:48:18,006 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Entity must not be null
+2023-07-13 14:48:23,285 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-8] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:48:23,290 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:48:23,294 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-10] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:48:23,302 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-10] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:49:04,132 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-9] Received DELETE request for Risk_Calc_logic tbl with Element_Name: dsiofu 
+2023-07-13 14:49:04,136 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-9] Failed to delete from risk_calc_logic tbl with elementName: dsiofu
+2023-07-13 14:49:04,137 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-9] Entity must not be null
+2023-07-13 14:50:29,274 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 8360 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-13 14:50:29,274 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-13 14:50:30,135 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-13 14:50:30,225 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.991 seconds (process running for 522.093)
+2023-07-13 14:50:34,018 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-1] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:50:34,026 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:50:34,035 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-2] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:50:34,040 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:50:45,179 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-3] Received DELETE request for Risk_Calc_logic tbl with Element_Name: dsiofu 
+2023-07-13 14:50:45,185 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-3] Failed to delete from risk_calc_logic tbl with elementName: dsiofu
+2023-07-13 14:50:45,185 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-3] Entity must not be null
+2023-07-13 14:54:55,951 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-7] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:54:55,959 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:54:55,966 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-5] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:54:55,970 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:58:25,061 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-9] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:58:25,068 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-9] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:58:51,816 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-1] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:58:51,821 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:58:51,825 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-2] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:58:51,831 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:59:02,551 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-3] Received POST request with body: RiskCalcLogic [id=null, elementName=killu k , formula=lkasdf]
+2023-07-13 14:59:02,572 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-3] Data saved Successfully
+2023-07-13 14:59:06,553 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-4] Received DELETE request for Risk_Calc_logic tbl with Element_Name: killu k 
+2023-07-13 14:59:06,558 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Failed to delete from risk_calc_logic tbl with elementName: killu k
+2023-07-13 14:59:06,559 ERROR c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Entity must not be null
+2023-07-13 14:59:09,074 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-7] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:59:09,079 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:59:09,083 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-5] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 14:59:09,089 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 14:59:26,958 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-8] Received POST request with body: RiskCalcLogic [id=null, elementName=killu kdf  , formula=kldsajf lkadsjf   ]
+2023-07-13 14:59:26,971 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Data saved Successfully
+2023-07-13 15:00:00,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:00,017 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:00,112 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:00,125 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:00,180 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:00,191 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:00,244 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:01,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:01,006 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:01,060 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:01,071 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:01,147 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:01,163 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:01,237 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:02,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:02,016 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:02,077 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:02,088 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:02,164 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:02,177 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:02,241 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:03,011 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:03,011 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:03,077 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:03,086 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:03,140 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:03,149 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:03,209 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:04,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:04,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:04,056 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:04,071 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:04,113 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:04,122 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:04,165 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:05,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:05,015 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:05,056 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:05,065 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:05,102 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:05,110 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:05,152 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:06,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:06,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:06,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:06,061 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:06,097 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:06,106 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:06,144 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:07,011 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:07,011 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:07,066 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:07,082 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:07,143 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:07,164 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:07,223 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:08,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:08,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:08,053 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:08,071 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:08,109 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:08,118 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:08,161 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:09,012 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:09,012 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:09,050 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:09,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:09,103 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:09,111 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:09,147 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:10,003 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:10,004 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:10,038 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:10,054 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:10,092 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:10,102 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:10,139 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:11,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:11,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:11,037 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:11,052 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:11,095 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:11,105 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:11,149 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:12,004 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:12,006 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:12,037 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:12,053 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:12,092 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:12,102 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:12,143 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:13,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:13,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:13,047 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:13,057 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:13,096 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:13,105 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:13,143 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:14,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:14,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:14,047 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:14,063 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:14,095 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:14,102 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:14,131 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:15,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:15,019 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:15,059 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:15,074 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:15,117 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:15,127 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:15,176 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:16,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:16,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:16,032 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:16,049 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:16,084 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:16,092 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:16,123 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:17,016 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:17,016 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:17,056 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:17,063 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:17,096 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:17,105 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:17,140 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:18,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:18,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:18,043 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:18,050 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:18,081 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:18,089 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:18,122 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:19,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:19,006 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:19,050 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:19,058 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:19,092 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:19,100 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:19,139 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:20,012 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:20,012 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:20,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:20,055 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:20,090 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:20,099 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:20,136 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:21,002 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:21,002 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:21,033 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:21,043 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:21,073 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:21,082 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:21,115 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:22,011 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:22,011 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:22,051 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:22,060 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:22,095 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:22,105 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:22,139 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:23,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:23,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:23,038 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:23,051 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:23,079 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:23,087 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:23,126 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:24,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:24,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:24,044 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:24,055 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:24,087 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:24,095 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:24,134 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:25,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:25,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:25,048 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:25,056 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:25,090 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:25,099 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:25,134 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:26,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:26,015 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:26,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:26,060 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:26,089 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:26,097 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:26,130 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:27,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:27,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:27,045 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:27,054 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:27,090 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:27,099 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:27,134 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:28,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:28,017 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:28,058 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:28,066 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:28,107 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:28,115 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:28,150 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:29,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:29,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:29,051 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:29,069 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:29,116 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:29,127 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:29,167 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:30,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:30,015 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:30,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:30,063 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:30,093 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:30,101 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:30,135 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:31,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:31,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:31,037 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:31,047 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:31,076 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:31,084 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:31,117 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:32,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:32,015 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:32,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:32,057 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:32,089 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:32,098 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:32,131 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:33,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:33,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:33,042 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:33,051 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:33,096 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:33,106 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:33,146 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:34,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:34,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:34,044 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:34,050 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:34,072 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:34,079 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:34,102 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:35,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:35,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:35,056 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:35,065 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:35,106 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:35,115 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:35,153 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:36,003 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:36,003 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:36,032 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:36,046 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:36,078 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:36,086 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:36,118 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:37,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:37,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:37,039 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:37,054 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:37,090 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:37,097 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:37,129 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:38,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:38,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:38,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:38,061 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:38,092 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:38,100 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:38,131 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:39,003 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:39,004 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:39,045 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:39,061 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:39,096 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:39,105 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:39,139 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:40,003 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:40,003 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:40,039 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:40,048 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:40,090 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:40,099 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:40,141 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:41,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:41,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:41,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:41,057 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:41,087 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:41,093 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:41,128 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:42,002 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:42,003 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:42,035 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:42,049 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:42,079 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:42,088 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:42,119 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:43,007 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:43,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:43,039 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:43,046 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:43,077 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:43,084 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:43,107 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:44,004 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:44,004 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:44,047 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:44,058 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:44,097 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:44,106 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:44,137 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:45,007 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:45,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:45,047 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:45,055 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:45,097 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:45,107 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:45,153 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:46,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:46,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:46,042 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:46,058 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:46,090 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:46,097 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:46,127 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:47,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:47,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:47,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:47,056 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:47,085 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:47,093 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:47,123 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:48,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:48,006 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:48,037 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:48,046 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:48,083 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:48,090 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:48,132 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:49,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:49,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:49,040 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:49,051 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:49,086 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:49,095 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:49,135 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:50,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:50,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:50,055 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:50,066 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:50,115 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:50,127 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:50,172 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:51,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:51,018 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:51,056 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:51,065 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:51,102 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:51,110 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:51,144 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:52,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:52,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:52,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:52,060 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:52,102 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:52,112 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:52,156 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:53,016 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:53,016 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:53,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:53,056 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:53,094 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:53,101 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:53,139 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:54,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:54,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:54,052 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:54,066 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:54,109 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:54,134 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:54,182 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:55,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:55,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:55,054 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:55,064 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:55,114 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:55,125 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:55,164 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:56,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:56,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:56,047 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:56,059 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:56,099 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:56,109 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:56,148 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:57,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:57,019 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:57,065 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:57,075 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:57,109 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:57,118 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:57,155 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:58,004 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:58,004 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:58,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:58,055 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:58,093 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:58,101 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:58,141 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:00:59,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:00:59,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:00:59,066 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:00:59,076 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-13 15:00:59,116 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:00:59,127 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-13 15:00:59,166 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:01:03,162 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-1] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 15:01:03,165 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 15:01:13,802 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-2] Received POST request with body: RiskCalcLogic [id=null, elementName=sadkljf lajdf   ks, formula=lkdsf lk]
+2023-07-13 15:01:13,813 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Data saved Successfully
+2023-07-13 15:01:21,037 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-6] Received DELETE request for Risk_Calc_logic tbl with Element_Name: sadkljf lajdf   ks 
+2023-07-13 15:01:21,046 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-6] Successfully DELETED from the risk_calc_logic tbl with elementName: sadkljf lajdf   ks
+2023-07-13 15:01:23,981 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-4] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 15:01:23,984 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 15:01:23,995 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-7] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 15:01:23,998 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 15:02:13,263 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-5] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 15:02:13,266 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 15:02:13,270 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-8] Received GET request to fetch all data from risk_calc_logic table
+2023-07-13 15:02:13,274 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Successfully Fetched data from the database risk_calc_logic
+2023-07-13 15:02:21,428 INFO c.u.c.c.OutputController [http-nio-8092-exec-10] Received GET request to fetch all Output table Params
+2023-07-13 15:02:21,431 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-10] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-13 15:02:21,434 INFO c.u.c.c.OutputController [http-nio-8092-exec-10] Received GET request to fetch all Output table Params
+2023-07-13 15:02:21,437 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-13 15:02:21,437 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-10] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-13 15:02:21,444 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-3] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:02:21,445 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:02:21,472 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:02:21,479 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: Infosys
+2023-07-13 15:02:21,500 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:02:21,507 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: Nagarro
+2023-07-13 15:02:21,526 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:02:21,534 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-13 15:02:21,545 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-13 15:02:21,547 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-3] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:02:21,547 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:02:21,572 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:02:21,580 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: Infosys
+2023-07-13 15:02:21,612 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:02:21,617 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: Nagarro
+2023-07-13 15:02:21,646 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:02:21,654 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-13 15:02:25,319 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 15:02:25,327 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 15:02:25,328 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 15:02:25,331 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:02:25,340 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 15:02:25,342 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:03:32,611 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 15:03:32,638 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 15:03:32,641 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:03:43,202 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 15:03:43,209 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 15:03:43,211 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:03:58,411 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 15:03:58,417 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 15:03:58,419 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-6] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:04:30,552 INFO c.u.c.c.OutputController [http-nio-8092-exec-4] Received GET request to fetch all Output table Params
+2023-07-13 15:04:30,560 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-13 15:04:30,565 INFO c.u.c.c.OutputController [http-nio-8092-exec-7] Received GET request to fetch all Output table Params
+2023-07-13 15:04:30,566 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-13 15:04:30,569 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-13 15:04:30,571 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:04:30,571 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:04:30,597 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:04:30,604 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-13 15:04:30,625 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:04:30,635 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-13 15:04:30,664 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:04:30,674 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-13 15:04:30,680 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-13 15:04:30,684 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:04:30,684 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-13 15:04:30,712 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-13 15:04:30,721 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-13 15:04:30,756 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-13 15:04:30,765 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-13 15:04:30,794 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-13 15:04:30,804 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-13 15:05:07,392 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 15:05:07,399 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-13 15:05:07,401 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 15:05:07,406 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:05:07,411 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-13 15:05:07,413 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Successfully Fetched data from the database company_risk_score
+2023-07-13 15:06:54,867 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 8360 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-13 15:06:54,867 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-13 15:06:55,668 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-13 15:06:55,773 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.949 seconds (process running for 1507.649)
+2023-07-13 15:09:58,756 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 8360 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-13 15:09:58,757 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-13 15:09:59,371 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-13 15:09:59,435 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.714 seconds (process running for 1691.311)
+2023-07-13 15:10:20,421 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 8360 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-13 15:10:20,422 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-13 15:10:20,818 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-13 15:10:20,878 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.479 seconds (process running for 1712.754)
+2023-07-13 15:10:26,467 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 8360 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-13 15:10:26,467 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-13 15:10:26,875 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-13 15:10:26,936 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.49 seconds (process running for 1718.811)
+2023-07-13 15:11:32,958 WARN o.s.w.s.DispatcherServlet [http-nio-8092-exec-1] No mapping for GET /v1/api/rd/getRDNames
+2023-07-13 15:12:51,897 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 8360 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-13 15:12:51,898 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-13 15:12:52,507 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-13 15:12:52,561 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.691 seconds (process running for 1864.442)

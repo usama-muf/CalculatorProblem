@@ -6,7 +6,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-
 public class CalculatorProblemV2Application {
 
     public static void main(String[] args) {

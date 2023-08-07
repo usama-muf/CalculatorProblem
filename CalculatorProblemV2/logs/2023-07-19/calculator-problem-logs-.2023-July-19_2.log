@@ -1,0 +1,1396 @@
+2023-07-19 10:10:18,476 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 7048 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-19 10:10:18,489 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-19 10:10:23,883 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-19 10:10:24,348 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 6.365 seconds (process running for 9.302)
+2023-07-19 10:10:27,903 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:10:27,959 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:10:50,192 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:10:50,251 INFO c.u.c.c.RiskDimensionController [http-nio-8092-exec-5] Received Update request for Risk_Dimension tbl with Dimension_Name: Feasible 
+2023-07-19 10:10:50,301 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Successfully Updated in the Risk_Dimension tbl with dimensionName: Feasible and body : RiskDimension [dimension=Feasible, weight=27]
+2023-07-19 10:10:53,928 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:10:53,950 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,248 INFO c.u.c.c.OutputController [http-nio-8092-exec-8] Received GET request to fetch all Output table Params
+2023-07-19 10:11:03,260 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-19 10:11:03,271 INFO c.u.c.c.OutputController [http-nio-8092-exec-9] Received GET request to fetch all Output table Params
+2023-07-19 10:11:03,274 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-19 10:11:03,277 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-9] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-19 10:11:03,291 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:11:03,292 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:11:03,304 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,305 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,332 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,332 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,340 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,340 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,347 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,347 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,354 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,354 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,360 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,361 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,367 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,367 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,371 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,416 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:11:03,447 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Calculating output params for compnay: IBM
+2023-07-19 10:11:03,457 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,457 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,465 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,466 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,472 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,473 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,479 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,479 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,485 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,486 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,491 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,491 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,496 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,496 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,500 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,517 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:11:03,553 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Calculating output params for compnay: Infosys
+2023-07-19 10:11:03,561 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,561 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:03,570 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,570 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:03,576 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,576 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:03,582 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,583 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:03,588 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,589 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:03,594 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,595 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:03,601 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,602 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:03,604 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:03,623 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:11:03,662 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Calculating output params for compnay: Nagarro
+2023-07-19 10:11:03,670 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,670 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:03,678 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,678 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:03,685 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,685 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:03,691 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,691 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:03,697 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,698 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:03,703 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,704 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:03,709 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,709 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:03,711 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:03,730 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:11:03,801 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-19 10:11:03,816 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-19 10:11:03,824 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:11:03,825 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:11:03,846 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,847 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,857 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,858 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,864 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,864 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,872 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,872 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,878 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,878 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,886 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,887 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,892 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,892 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,894 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:03,908 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:11:03,920 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: IBM
+2023-07-19 10:11:03,925 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,925 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,931 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,931 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,936 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,936 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,941 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,941 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,946 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,946 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,951 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,951 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,956 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,956 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,958 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:03,976 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:11:03,992 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: Infosys
+2023-07-19 10:11:03,998 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:03,999 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:04,004 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,005 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:04,009 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,009 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:04,013 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,014 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:04,018 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,019 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:04,024 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,024 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:04,029 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,029 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:04,031 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:04,044 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:11:04,064 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: Nagarro
+2023-07-19 10:11:04,070 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,071 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:04,078 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,078 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:04,083 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,083 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:04,090 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,090 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:04,095 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,095 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:04,099 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,100 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:04,106 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:04,106 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:04,108 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:04,128 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:11:04,162 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-19 10:11:07,203 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-2] Received GET request to fetch all data from risk_calc_logic table
+2023-07-19 10:11:07,209 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Successfully Fetched data from the database risk_calc_logic
+2023-07-19 10:11:07,213 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-3] Received GET request to fetch all data from risk_calc_logic table
+2023-07-19 10:11:07,219 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-3] Successfully Fetched data from the database risk_calc_logic
+2023-07-19 10:11:20,470 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-5] Received DELETE request for Risk_Calc_logic tbl with Element_Name: temp_data 
+2023-07-19 10:11:20,495 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Successfully DELETED from the risk_calc_logic tbl with elementName: temp_data
+2023-07-19 10:11:29,453 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-19 10:11:29,461 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-19 10:11:29,465 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-19 10:11:29,468 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:11:29,478 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-19 10:11:29,482 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-9] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:11:41,031 INFO c.u.c.c.OutputController [http-nio-8092-exec-10] Received GET request to fetch all Output table Params
+2023-07-19 10:11:41,035 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-10] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-19 10:11:41,041 INFO c.u.c.c.OutputController [http-nio-8092-exec-1] Received GET request to fetch all Output table Params
+2023-07-19 10:11:41,049 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-19 10:11:41,049 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-19 10:11:41,055 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:11:41,056 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:11:41,063 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,064 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,071 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,072 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,077 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,077 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,081 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,081 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,085 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,085 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,092 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,092 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,095 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,107 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:11:41,117 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: IBM
+2023-07-19 10:11:41,123 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,124 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,129 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,129 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,134 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,134 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,140 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,140 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,144 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,145 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,153 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,154 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,158 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,193 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:11:41,219 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: Infosys
+2023-07-19 10:11:41,230 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,231 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,241 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,241 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,246 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,246 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,250 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,250 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,256 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,256 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,261 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,261 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,263 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,276 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:11:41,297 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: Nagarro
+2023-07-19 10:11:41,303 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,303 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,309 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,310 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,314 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,314 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,318 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,319 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,323 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,324 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,327 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,327 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,329 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,347 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:11:41,372 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-19 10:11:41,375 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-19 10:11:41,380 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:11:41,380 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:11:41,388 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,388 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,396 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,396 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,407 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,407 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,417 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,417 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,424 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,425 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,432 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,432 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,434 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:11:41,454 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:11:41,472 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Calculating output params for compnay: IBM
+2023-07-19 10:11:41,481 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,481 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,489 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,489 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,494 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,495 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,500 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,501 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,507 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,507 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,513 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,513 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,515 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:11:41,539 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:11:41,564 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Calculating output params for compnay: Infosys
+2023-07-19 10:11:41,571 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,572 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,579 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,579 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,584 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,584 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,594 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,595 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,611 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,611 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,617 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,617 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,619 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:11:41,637 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:11:41,666 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Calculating output params for compnay: Nagarro
+2023-07-19 10:11:41,673 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,674 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,681 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,682 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,688 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,688 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,693 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,693 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,699 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,699 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,704 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:11:41,704 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,707 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:11:41,730 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:11:41,780 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-19 10:12:00,024 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:12:00,025 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:12:00,034 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:12:00,035 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:12:00,040 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:13:23,083 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-6] Received POST request with body: RiskCalcLogic [id=null, elementName=Feasible_Weight, formula=Feasible * Feasible Weight / 100]
+2023-07-19 10:13:23,108 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-6] Data saved Successfully in the table Risk_Calc_logic with body RiskCalcLogic [id=852, elementName=Feasible_Weight, formula=Feasible * Feasible Weight / 100]:
+2023-07-19 10:14:00,025 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:14:00,026 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:14:00,034 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:14:00,034 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:14:00,037 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:15:03,195 INFO c.u.c.c.OutputController [http-nio-8092-exec-9] Received GET request to fetch all Output table Params
+2023-07-19 10:15:03,199 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-9] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-19 10:15:03,205 INFO c.u.c.c.OutputController [http-nio-8092-exec-10] Received GET request to fetch all Output table Params
+2023-07-19 10:15:03,209 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-19 10:15:03,209 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-10] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-19 10:15:03,212 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:15:03,213 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:15:03,219 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,220 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,228 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,228 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,233 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,233 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,239 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,240 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,243 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,243 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,247 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,247 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,251 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,253 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,255 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,267 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:15:03,282 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: IBM
+2023-07-19 10:15:03,288 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,288 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,293 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,293 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,298 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,298 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,304 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,304 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,309 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,309 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,314 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,314 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,318 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,318 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,321 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,334 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:15:03,353 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: Infosys
+2023-07-19 10:15:03,358 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,358 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,362 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,363 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,366 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,366 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,371 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,371 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,374 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,375 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,378 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,378 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,381 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,381 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,383 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,394 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:15:03,416 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: Nagarro
+2023-07-19 10:15:03,423 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,423 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,429 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,430 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,433 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,434 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,438 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,438 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,443 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,443 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,447 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,447 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,452 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,452 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,454 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,467 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:15:03,496 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-19 10:15:03,499 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-19 10:15:03,503 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:15:03,504 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:15:03,510 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,510 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,517 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,517 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,522 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,523 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,529 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,529 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,534 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,534 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,539 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,539 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,544 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,544 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,546 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:03,564 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:15:03,575 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: IBM
+2023-07-19 10:15:03,580 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,580 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,585 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,585 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,590 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,590 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,594 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,594 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,599 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,599 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,604 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,604 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,608 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,608 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,610 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:03,623 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:15:03,634 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: Infosys
+2023-07-19 10:15:03,638 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,638 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,642 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,642 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,646 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,646 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,650 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,650 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,653 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,654 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,658 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,658 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,662 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,662 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,664 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:03,675 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:15:03,696 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: Nagarro
+2023-07-19 10:15:03,701 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,701 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,713 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,713 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,717 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,717 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,723 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,723 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,727 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,727 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,731 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,731 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,735 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:03,735 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,737 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:03,755 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:15:03,778 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-19 10:15:05,836 INFO c.u.c.c.OutputController [http-nio-8092-exec-3] Received GET request to fetch all Output table Params
+2023-07-19 10:15:05,842 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-3] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-19 10:15:05,845 INFO c.u.c.c.OutputController [http-nio-8092-exec-4] Received GET request to fetch all Output table Params
+2023-07-19 10:15:05,851 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-19 10:15:05,878 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-19 10:15:05,881 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:15:05,882 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:15:05,888 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,888 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:05,896 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,896 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:05,902 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,902 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:05,907 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,907 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:05,910 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,911 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:05,916 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,916 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:05,921 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,921 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:05,922 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:05,934 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:15:05,944 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Calculating output params for compnay: IBM
+2023-07-19 10:15:05,949 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,949 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:05,954 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,955 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:05,957 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,957 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:05,961 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,961 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:05,965 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,965 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:05,968 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,968 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:05,972 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:05,972 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:05,974 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:05,989 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:15:06,011 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Calculating output params for compnay: Infosys
+2023-07-19 10:15:06,019 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,020 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,026 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,026 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,032 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,032 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,047 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,047 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,051 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,051 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,054 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,055 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,058 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,058 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,060 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,072 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:15:06,098 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Calculating output params for compnay: Nagarro
+2023-07-19 10:15:06,103 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,103 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,107 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,107 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,111 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,111 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,114 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,115 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,118 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,118 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,122 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,122 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,126 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,126 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,128 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,140 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:15:06,170 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-19 10:15:06,173 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-07-19 10:15:06,177 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:15:06,177 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:15:06,183 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,183 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:06,189 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,190 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:06,194 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,194 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:06,199 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,199 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:06,204 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,204 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:06,209 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,209 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:06,214 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,214 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:06,217 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:15:06,230 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:15:06,243 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Calculating output params for compnay: IBM
+2023-07-19 10:15:06,251 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,252 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:06,257 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,257 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:06,261 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,261 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:06,264 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,264 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:06,269 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,269 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:06,272 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,272 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:06,275 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,275 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:06,276 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:15:06,288 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:15:06,299 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Calculating output params for compnay: Infosys
+2023-07-19 10:15:06,304 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,304 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,308 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,308 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,311 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,311 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,317 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,317 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,320 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,321 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,323 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,324 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,327 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,327 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,328 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:15:06,338 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:15:06,354 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Calculating output params for compnay: Nagarro
+2023-07-19 10:15:06,358 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,358 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,363 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,363 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,366 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,366 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,370 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,370 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,373 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,373 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,377 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,377 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,380 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:15:06,380 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,382 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:15:06,394 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:15:06,413 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-07-19 10:16:00,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:16:00,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:16:00,019 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:16:00,020 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:16:00,022 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:18:00,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:18:00,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:18:00,015 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:18:00,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:18:00,017 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:20:00,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:20:00,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:20:00,017 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:20:00,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:20:00,021 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:22:00,025 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:22:00,025 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:22:00,030 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:22:00,030 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:22:00,033 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:23:59,701 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:23:59,701 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:23:59,717 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:23:59,717 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:23:59,717 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:25:59,928 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:25:59,928 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:25:59,928 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:25:59,928 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:25:59,944 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:28:00,001 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:28:00,001 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:28:00,017 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:28:00,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:28:00,017 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:30:00,025 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:30:00,025 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:30:00,032 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:30:00,032 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:30:00,034 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:32:00,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:32:00,019 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:32:00,024 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:32:00,025 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:32:00,027 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:34:00,022 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:34:00,023 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:34:00,028 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:34:00,028 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:34:00,031 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:36:00,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:36:00,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:36:00,019 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:00,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:00,022 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:36:27,692 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received PUT request for New_Company_Risk_Score_Row with companyName: Infosys and body: CompanyRiskScorePutRequest [parameters={Information Security=19, Conduct=19, Resilience=19}]
+2023-07-19 10:36:27,704 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-9] Successfully UPDATED in the database company_risk_score with companyName: Infosys, and body: CompanyRiskScore [companyName=Infosys, parameters=[RiskParameters [parameterName=Resilience, parameterValue=19], RiskParameters [parameterName=Information Security, parameterValue=19], RiskParameters [parameterName=Conduct, parameterValue=19]]]
+2023-07-19 10:36:34,008 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-19 10:36:34,011 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:36:34,011 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:36:34,016 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,016 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:34,021 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,021 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:34,025 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,025 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:34,028 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,028 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:34,033 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,033 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:34,037 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,037 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:34,040 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,041 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:34,042 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:36:34,054 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:36:34,065 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: IBM
+2023-07-19 10:36:34,070 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,070 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:36:34,075 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,075 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:36:34,079 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,079 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:36:34,084 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,084 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:36:34,089 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,089 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:36:34,093 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,093 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:36:34,097 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,097 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:36:34,099 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:36:34,110 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:36:34,126 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: Infosys
+2023-07-19 10:36:34,132 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,132 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:36:34,137 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,138 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:36:34,141 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,141 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:36:34,145 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,145 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:36:34,150 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,150 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:36:34,153 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,154 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:36:34,158 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,158 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:36:34,159 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:36:34,168 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:36:34,186 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Calculating output params for compnay: Nagarro
+2023-07-19 10:36:34,189 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,189 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:36:34,194 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,194 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:36:34,198 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,199 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:36:34,203 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,203 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:36:34,207 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,207 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:36:34,210 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,211 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:36:34,216 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:36:34,216 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:36:34,218 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:36:34,228 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:36:34,251 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-19 10:38:00,023 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:38:00,023 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:38:00,030 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:38:00,030 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:38:00,033 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:40:00,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:40:00,018 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:40:00,023 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:40:00,023 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:40:00,026 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:48) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:216) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:110) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:40:39,593 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 7048 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-19 10:40:39,594 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-19 10:40:40,442 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-19 10:40:40,529 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.985 seconds (process running for 1825.871)
+2023-07-19 10:40:56,348 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 7048 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-19 10:40:56,349 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-19 10:40:56,967 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-19 10:40:57,038 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.718 seconds (process running for 1842.388)
+2023-07-19 10:42:00,011 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:42:00,012 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:42:00,019 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:00,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:00,023 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:47) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:215) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:109) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:42:15,441 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 7048 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-19 10:42:15,441 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-19 10:42:15,977 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-19 10:42:16,050 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.637 seconds (process running for 1921.404)
+2023-07-19 10:42:37,188 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-19 10:42:37,192 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:42:37,198 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:42:37,205 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,206 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:37,215 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,216 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:37,220 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,220 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:37,224 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,224 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:37,229 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,229 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:37,234 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,234 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:37,237 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,237 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:37,238 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:42:37,253 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-19 10:42:37,268 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: IBM
+2023-07-19 10:42:37,272 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,272 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:42:37,277 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,277 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:42:37,281 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,281 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:42:37,284 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,284 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:42:37,287 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,287 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:42:37,290 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,290 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:42:37,293 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,294 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:42:37,296 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: IBM
+2023-07-19 10:42:37,308 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: IBM
+2023-07-19 10:42:37,322 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: Infosys
+2023-07-19 10:42:37,325 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,326 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:42:37,331 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,331 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:42:37,335 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,335 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:42:37,338 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,338 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:42:37,341 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,341 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:42:37,345 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,345 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:42:37,348 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,349 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:42:37,350 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Infosys
+2023-07-19 10:42:37,356 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-19 10:42:37,370 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Calculating output params for compnay: Nagarro
+2023-07-19 10:42:37,374 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,374 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:42:37,379 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,379 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:42:37,382 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,382 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:42:37,385 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,385 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:42:37,387 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,387 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:42:37,390 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,390 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:42:37,392 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:42:37,392 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:42:37,395 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Fetching data from Company_Risk_Score tbl for companyName: Nagarro
+2023-07-19 10:42:37,406 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-19 10:42:37,426 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-19 10:44:00,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-19 10:44:00,011 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-19 10:44:00,021 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-19 10:44:00,021 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: CreditSuisse
+2023-07-19 10:44:00,023 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.usama.calculatorproblemv2.entity.CompanyRiskScore.parameters: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:615) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:136) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:169) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1865) ~[?:?]
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:508) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:47) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getEachElementNameValue(RiskCalcLogicService.java:215) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:109) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:44) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:40) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-07-19 10:44:08,738 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

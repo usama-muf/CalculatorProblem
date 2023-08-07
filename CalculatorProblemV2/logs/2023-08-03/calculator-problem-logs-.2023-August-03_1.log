@@ -1,0 +1,465 @@
+2023-08-03 09:50:39,194 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 09:52:00,460 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 09:54:00,289 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 09:56:00,308 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 09:58:00,241 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 10:00:00,228 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 10:02:00,221 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 10:04:00,198 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 10:06:00,201 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 10:08:00,212 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 10:10:00,216 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.getCompanyParameterAndScoreData(RiskCalcLogicService.java:196) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateTotalRiskCappedScore(RiskCalcLogicService.java:523) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculationOrderResultMap(RiskCalcLogicService.java:317) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:255) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.RiskCalcLogicService.calculateFormula(RiskCalcLogicService.java:242) ~[classes/:?]
+	at com.usama.calculatorproblemv2.service.OutputService.lambda$1(OutputService.java:47) ~[classes/:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at com.usama.calculatorproblemv2.service.OutputService.updateOutputTable(OutputService.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) [spring-context-6.0.9.jar:6.0.9]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-08-03 10:17:52,039 ERROR c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Failed to Update in Risk_Dimension tbl with dimensionName: weight_resilience and body: RiskDimension [dimension=weight_resilience, weight=100000]
+2023-08-03 10:17:52,039 ERROR c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Invalid risk dimension
+2023-08-03 10:20:22,723 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 10:20:26,055 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 10:30:12,830 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 10:33:35,184 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 11:25:36,652 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 6832 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-08-03 11:25:36,658 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-08-03 11:25:37,509 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 11:25:37,571 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.953 seconds (process running for 5710.739)
+2023-08-03 11:26:00,031 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-08-03 11:26:00,031 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Updating RiskDimensionTbl
+2023-08-03 11:26:00,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Credit Suisse
+2023-08-03 11:26:00,066 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,067 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,082 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,086 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,088 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,091 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,097 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,101 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,104 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,108 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,113 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,116 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,118 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,120 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,124 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,127 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,128 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:26:00,130 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:26:00,136 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Credit Suisse
+2023-08-03 11:27:26,989 INFO c.u.c.c.RiskDimensionController [http-nio-8092-exec-1] Received Update request for Risk_Dimension tbl with Dimension_Name: weight_conduct 
+2023-08-03 11:27:27,003 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Successfully Updated in the Risk_Dimension tbl with dimensionName: weight_conduct and body : RiskDimension [dimension=weight_conduct, weight=13]
+2023-08-03 11:27:49,191 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:27:49,200 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-08-03 11:28:00,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Updating RiskDimensionTbl
+2023-08-03 11:28:00,037 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Credit Suisse
+2023-08-03 11:28:00,040 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,040 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,049 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,052 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,054 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,057 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,062 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,065 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,070 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,074 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,078 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,081 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,085 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,087 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,092 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,095 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,096 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:28:00,099 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:00,104 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Credit Suisse
+2023-08-03 11:28:04,188 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:28:04,195 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,025 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-08-03 11:30:00,026 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Updating RiskDimensionTbl
+2023-08-03 11:30:00,044 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Credit Suisse
+2023-08-03 11:30:00,050 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,051 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,060 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,066 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,067 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,070 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,075 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,078 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,083 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,086 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,090 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,094 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,096 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,099 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,104 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,107 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,109 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:30:00,112 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:30:00,119 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Credit Suisse
+2023-08-03 11:30:48,666 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 6832 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-08-03 11:30:48,667 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-08-03 11:30:49,098 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 11:30:49,156 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.524 seconds (process running for 6022.33)
+2023-08-03 11:32:00,016 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-08-03 11:32:00,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Updating RiskDimensionTbl
+2023-08-03 11:32:00,040 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] [conduct, information_security, resilience]
+2023-08-03 11:32:00,042 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] [weight_conduct, weight_information_security, weight_resilience]
+2023-08-03 11:32:00,048 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Credit Suisse
+2023-08-03 11:32:00,052 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,053 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,066 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,071 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,073 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,075 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,079 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,082 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,085 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,087 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,090 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,092 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,094 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,096 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,099 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,101 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,103 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: Credit Suisse
+2023-08-03 11:32:00,105 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-03 11:32:00,109 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Credit Suisse
+2023-08-03 11:33:04,023 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 6832 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-08-03 11:33:04,024 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-08-03 11:33:04,472 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 11:33:04,518 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.515 seconds (process running for 6157.692)
+2023-08-03 11:33:09,955 INFO c.u.c.c.RiskDimensionController [http-nio-8092-exec-1] Received Update request for Risk_Dimension tbl with Dimension_Name: weight_conduct 
+2023-08-03 11:33:09,965 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Successfully Updated in the Risk_Dimension tbl with dimensionName: weight_conduct and body : RiskDimension [dimension=weight_conduct, weight=13]
+2023-08-03 11:33:31,061 INFO c.u.c.c.OutputController [http-nio-8092-exec-2] Received GET request to fetch all Output table Params
+2023-08-03 11:33:31,065 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-03 11:33:31,070 INFO c.u.c.c.OutputController [http-nio-8092-exec-3] Received GET request to fetch all Output table Params
+2023-08-03 11:33:31,072 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-3] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-03 11:33:31,074 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-08-03 11:33:31,078 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-08-03 11:33:31,085 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-08-03 11:33:31,087 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'

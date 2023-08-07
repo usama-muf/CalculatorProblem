@@ -1,0 +1,6 @@
+2023-07-31 16:15:13,661 INFO o.s.b.StartupInfoLogger [main] Starting RiskScoreLevelControllerTest using Java 17.0.5 with PID 20896 (started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-31 16:15:13,669 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "development"
+2023-07-31 16:15:15,554 INFO o.s.b.StartupInfoLogger [main] Started RiskScoreLevelControllerTest in 2.316 seconds (process running for 3.431)
+2023-07-31 16:15:15,655 WARN o.s.w.s.DispatcherServlet [main] No mapping for GET /get/Low
+2023-07-31 16:15:15,733 WARN o.s.w.s.DispatcherServlet [main] No mapping for PUT /v1/api/rs/get/Low
+2023-07-31 16:15:15,750 WARN o.s.w.s.DispatcherServlet [main] No mapping for GET /v1/api/rs/get/NonExistentLevel

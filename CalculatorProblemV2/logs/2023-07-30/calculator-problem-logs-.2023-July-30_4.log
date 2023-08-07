@@ -1,0 +1,18 @@
+2023-07-30 13:19:17,445 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 9424 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-30 13:19:17,459 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-30 13:19:21,723 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'scoreCapController' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\controller\ScoreCapController.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.apache.logging.log4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-07-30 13:19:21,779 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.usama.calculatorproblemv2.controller.ScoreCapController required a bean of type 'org.apache.logging.log4j.Logger' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.logging.log4j.Logger' in your configuration.
+

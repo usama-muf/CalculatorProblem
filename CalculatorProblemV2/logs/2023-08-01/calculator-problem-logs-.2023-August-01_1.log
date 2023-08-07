@@ -1,0 +1,49 @@
+2023-08-01 13:11:59,760 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:13:00,776 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:15:56,390 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:19:18,753 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:19:40,331 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:22:44,114 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:31:08,689 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:36:07,216 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:45:39,593 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:51:37,701 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:52:11,490 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:56:44,421 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:57:37,671 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:58:20,610 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:58:28,665 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:58:42,929 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 13:59:31,006 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 14:00:23,096 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'outputController' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\controller\OutputController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'outputService' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\service\OutputService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'riskCalcLogicService': Unsatisfied dependency expressed through field 'calcLogicServiceHelper': No qualifying bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-01 14:00:23,136 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field calcLogicServiceHelper in com.usama.calculatorproblemv2.service.RiskCalcLogicService required a bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' in your configuration.
+
+2023-08-01 14:03:23,711 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'outputController' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\controller\OutputController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'outputService' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\service\OutputService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'riskCalcLogicService': Unsatisfied dependency expressed through field 'calcLogicServiceHelper': No qualifying bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-01 14:03:23,720 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field calcLogicServiceHelper in com.usama.calculatorproblemv2.service.RiskCalcLogicService required a bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' in your configuration.
+

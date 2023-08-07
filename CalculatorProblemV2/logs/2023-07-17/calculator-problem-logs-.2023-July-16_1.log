@@ -1,0 +1,184 @@
+2023-07-16 23:27:16,521 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 21312 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-16 23:27:16,531 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-16 23:27:21,153 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-16 23:27:21,519 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 5.476 seconds (process running for 7.855)
+2023-07-16 23:49:22,192 INFO c.u.c.c.OutputController [http-nio-8092-exec-2] Received GET request to fetch all Output table Params
+2023-07-16 23:49:22,312 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-16 23:49:22,349 INFO c.u.c.c.OutputController [http-nio-8092-exec-1] Received GET request to fetch all Output table Params
+2023-07-16 23:49:22,352 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-16 23:49:22,357 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-16 23:49:22,385 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:49:22,388 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-16 23:49:22,400 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,486 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,496 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,505 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,514 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,524 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,531 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,577 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-16 23:49:22,680 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-16 23:49:22,697 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,708 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,718 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,731 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,743 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,752 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,764 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,796 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-16 23:49:22,816 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-16 23:49:22,832 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,843 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,853 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,863 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,872 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,882 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,894 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,927 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-16 23:49:22,945 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: TCS
+2023-07-16 23:49:22,964 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,977 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:22,989 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,003 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,018 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,031 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,045 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,092 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: TCS
+2023-07-16 23:49:23,121 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-16 23:49:23,214 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-16 23:49:23,224 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:49:23,225 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-16 23:49:23,241 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,252 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,264 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,276 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,291 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,308 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,318 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,351 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-16 23:49:23,367 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-16 23:49:23,377 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,388 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,396 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,405 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,414 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,424 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,433 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,460 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-16 23:49:23,475 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-16 23:49:23,485 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,495 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,504 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,513 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,522 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,530 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,541 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,571 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-16 23:49:23,588 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: TCS
+2023-07-16 23:49:23,599 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,608 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,618 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,626 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,636 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,645 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,655 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:49:23,693 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: TCS
+2023-07-16 23:49:23,717 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-16 23:49:26,341 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-16 23:49:26,348 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-16 23:49:26,351 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-16 23:49:26,357 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:49:26,371 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-16 23:49:26,377 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:49:27,794 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-16 23:49:27,804 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-16 23:51:00,483 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-16 23:51:00,497 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-16 23:51:00,501 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-16 23:51:00,509 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:51:00,525 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-16 23:51:00,530 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-6] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:51:02,928 INFO c.u.c.c.OutputController [http-nio-8092-exec-7] Received GET request to fetch all Output table Params
+2023-07-16 23:51:02,934 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-7] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-16 23:51:02,940 INFO c.u.c.c.OutputController [http-nio-8092-exec-8] Received GET request to fetch all Output table Params
+2023-07-16 23:51:02,943 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-16 23:51:02,945 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-16 23:51:02,948 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:51:02,948 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-16 23:51:02,960 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:02,966 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:02,975 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:02,981 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:02,989 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:02,995 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,000 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,018 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-16 23:51:03,031 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-16 23:51:03,040 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,046 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,052 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,060 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,065 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,073 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,078 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,098 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-16 23:51:03,109 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-16 23:51:03,115 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,122 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,128 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,134 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,142 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,148 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,153 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,167 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-16 23:51:03,175 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-16 23:51:03,181 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,186 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,191 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,196 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,201 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,206 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,211 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,232 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-16 23:51:03,245 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-16 23:51:03,253 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Updating Output table
+2023-07-16 23:51:03,258 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:51:03,258 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-16 23:51:03,265 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,273 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,279 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,289 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,296 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,306 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,313 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,333 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-16 23:51:03,343 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-16 23:51:03,351 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,357 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,362 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,367 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,373 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,378 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,385 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,405 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-16 23:51:03,416 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-16 23:51:03,425 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,433 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,440 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,448 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,456 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,463 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,470 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,490 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-16 23:51:03,501 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-16 23:51:03,510 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,516 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,524 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,532 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,540 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,546 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,553 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 23:51:03,583 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-16 23:51:03,600 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Successfully fetched all the data from the table 'output'
+2023-07-16 23:59:59,994 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-16 23:59:59,994 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse

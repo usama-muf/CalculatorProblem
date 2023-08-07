@@ -1,0 +1,155 @@
+2023-07-16 15:12:21,877 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 11708 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-16 15:12:21,908 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-16 15:12:36,763 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-16 15:12:37,900 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 17.3 seconds (process running for 19.354)
+2023-07-16 15:14:31,674 INFO c.u.c.c.OutputController [http-nio-8092-exec-1] Received GET request to fetch all Output table Params
+2023-07-16 15:14:31,812 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-16 15:14:31,854 INFO c.u.c.c.OutputController [http-nio-8092-exec-4] Received GET request to fetch all Output table Params
+2023-07-16 15:14:31,859 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-16 15:14:31,862 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-4] Fetching all the ElementName in risk_calc_logic tbl
+2023-07-16 15:14:31,890 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-16 15:14:31,893 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-16 15:14:31,911 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:31,990 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,000 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,010 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,021 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,031 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,039 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,084 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-16 15:14:32,179 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-16 15:14:32,192 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,204 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,217 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,233 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,242 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,250 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,267 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,301 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-16 15:14:32,328 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-16 15:14:32,339 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,349 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,357 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,367 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,374 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,383 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,390 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,420 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-16 15:14:32,445 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: TCS
+2023-07-16 15:14:32,458 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,470 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,478 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,485 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,491 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,500 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,507 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,544 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: TCS
+2023-07-16 15:14:32,570 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-16 15:14:32,634 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-16 15:14:32,640 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-16 15:14:32,640 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-16 15:14:32,653 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,663 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,673 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,683 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,692 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,701 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,712 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,740 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-16 15:14:32,765 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-16 15:14:32,777 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,787 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,798 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,809 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,819 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,829 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,833 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,876 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-16 15:14:32,894 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-16 15:14:32,898 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,898 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,914 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,939 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,950 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,966 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:32,976 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:33,001 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-16 15:14:33,016 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: TCS
+2023-07-16 15:14:33,026 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:33,026 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:33,042 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:33,049 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:33,050 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:33,066 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:33,073 INFO c.u.c.s.RiskDimensionService [ForkJoinPool.commonPool-worker-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:33,104 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: TCS
+2023-07-16 15:14:33,128 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-16 15:14:39,740 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-16 15:14:39,749 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-16 15:14:39,752 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-16 15:14:39,757 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Successfully Fetched data from the database company_risk_score
+2023-07-16 15:14:39,769 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-16 15:14:39,774 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Successfully Fetched data from the database company_risk_score
+2023-07-16 15:14:43,516 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:14:43,527 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:15:36,615 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:16:02,167 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-5] Received GET request to fetch all data from risk_calc_logic table
+2023-07-16 15:16:02,167 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Successfully Fetched data from the database risk_calc_logic
+2023-07-16 15:16:02,167 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-8] Received GET request to fetch all data from risk_calc_logic table
+2023-07-16 15:16:02,182 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-8] Successfully Fetched data from the database risk_calc_logic
+2023-07-16 15:16:55,847 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-9] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:16:55,847 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:19:07,368 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:19:19,116 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:19:23,793 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:19:23,800 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:20:24,517 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:20:24,524 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:20:29,647 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-9] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:20:29,657 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:20:57,582 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:21:24,214 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:21:50,373 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:22:00,616 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:22:27,696 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:22:38,073 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:22:38,084 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:24:15,610 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-9] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:25:14,950 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:25:26,798 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:25:37,974 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:26:16,147 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:32:30,114 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:32:30,316 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:32:30,328 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:32:45,128 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:33:17,092 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-9] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:33:38,773 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:33:44,619 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:33:47,599 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:33:47,608 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:37:41,073 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:37:41,089 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:37:50,409 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:37:50,421 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:39:07,234 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:39:07,243 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:40:11,742 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:40:11,762 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:40:13,689 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:42:39,209 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:43:41,221 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-9] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:43:43,965 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-2] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:43:43,977 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:45:52,944 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:45:54,954 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:45:54,963 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-1] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:46:05,966 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:46:22,341 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:46:22,352 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:49:18,070 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:50:19,772 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-6] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:50:39,392 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-10] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:52:32,631 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:53:08,665 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-5] Fetching all the Data from Risk_Dimension tbl
+2023-07-16 15:53:35,611 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl

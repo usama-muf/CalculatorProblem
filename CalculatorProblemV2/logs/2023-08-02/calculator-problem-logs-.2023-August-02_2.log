@@ -1,0 +1,119 @@
+2023-08-02 11:52:55,175 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 23948 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-08-02 11:52:55,186 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-08-02 11:52:59,702 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 11:53:00,084 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 5.366 seconds (process running for 6.199)
+2023-08-02 11:53:02,848 INFO c.u.c.c.OutputController [http-nio-8092-exec-2] Received GET request to fetch all Output table Params
+2023-08-02 11:53:02,853 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-02 11:53:02,880 INFO c.u.c.c.OutputController [http-nio-8092-exec-1] Received GET request to fetch all Output table Params
+2023-08-02 11:53:02,884 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-08-02 11:53:02,887 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-1] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-02 11:53:02,917 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Successfully Fetched data from the database company_risk_score
+2023-08-02 11:53:02,920 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Calculating output params for compnay: TCS
+2023-08-02 11:53:02,928 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:02,930 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:02,987 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:02,992 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:02,997 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,003 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,020 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,024 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,027 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,031 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,043 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,048 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,064 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,071 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,075 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,079 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-3] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,086 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully saving data to Output table for compnay: TCS
+2023-08-02 11:53:03,132 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-08-02 11:53:03,169 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-08-02 11:53:03,176 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Successfully Fetched data from the database company_risk_score
+2023-08-02 11:53:03,177 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Calculating output params for compnay: TCS
+2023-08-02 11:53:03,188 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,188 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,208 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,218 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,224 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,229 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,238 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,243 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,246 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,251 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,260 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,264 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,273 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,277 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,280 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:03,285 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-4] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:03,289 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully saving data to Output table for compnay: TCS
+2023-08-02 11:53:03,302 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-08-02 11:53:26,456 INFO c.u.c.c.OutputController [http-nio-8092-exec-5] Received GET request to fetch all Output table Params
+2023-08-02 11:53:26,464 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-5] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-02 11:53:26,469 INFO c.u.c.c.OutputController [http-nio-8092-exec-6] Received GET request to fetch all Output table Params
+2023-08-02 11:53:26,473 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-6] Fetching all the ElementName in risk_calc_logic tbl
+2023-08-02 11:53:26,502 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-08-02 11:53:26,509 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Successfully Fetched data from the database company_risk_score
+2023-08-02 11:53:26,509 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Calculating output params for compnay: TCS
+2023-08-02 11:53:26,518 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,518 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,539 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,544 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,547 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,551 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,561 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,565 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,568 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,571 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,582 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,588 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,597 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,601 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,604 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,608 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-7] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,615 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully saving data to Output table for compnay: TCS
+2023-08-02 11:53:26,629 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-08-02 11:53:26,632 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-08-02 11:53:26,638 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Successfully Fetched data from the database company_risk_score
+2023-08-02 11:53:26,639 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Calculating output params for compnay: TCS
+2023-08-02 11:53:26,647 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,647 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,664 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,671 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,676 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,680 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,692 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,696 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,698 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,702 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,717 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,721 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,728 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,731 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,733 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:53:26,736 INFO c.u.c.s.RiskDimensionService [http-nio-8092-exec-8] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:53:26,742 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully saving data to Output table for compnay: TCS
+2023-08-02 11:53:26,753 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-08-02 11:54:00,007 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-08-02 11:54:00,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-08-02 11:54:00,016 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:54:00,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:54:00,068 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:54:00,076 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:54:00,080 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:54:00,086 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:54:00,095 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:54:00,102 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:54:00,106 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:54:00,113 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:54:00,126 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:54:00,133 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:54:00,142 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:54:00,147 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:54:00,149 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Fetching data from Company_Risk_Score tbl for companyName: TCS
+2023-08-02 11:54:00,156 INFO c.u.c.s.RiskDimensionService [scheduling-1] Fetching all the Data from Risk_Dimension tbl
+2023-08-02 11:54:00,162 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-08-02 11:54:00,175 WARN o.h.e.j.s.SqlExceptionHelper [scheduling-1] SQL Error: 1146, SQLState: 42S02
+2023-08-02 11:54:00,176 ERROR o.h.e.j.s.SqlExceptionHelper [scheduling-1] Table 'calculator_problem_v2.output' doesn't exist
+2023-08-02 11:54:00,184 ERROR c.u.c.s.OutputService [scheduling-1] Error saving data to Ouptut table for the compnay : TCS
+2023-08-02 11:54:00,184 ERROR c.u.c.s.OutputService [scheduling-1] JDBC exception executing SQL [select o1_0.company_name from output o1_0 where o1_0.company_name=?] [Table 'calculator_problem_v2.output' doesn't exist] [n/a]; SQL [n/a]

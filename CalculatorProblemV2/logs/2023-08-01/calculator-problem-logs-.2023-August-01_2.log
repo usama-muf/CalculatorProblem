@@ -1,0 +1,16 @@
+2023-08-01 15:18:09,156 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'outputController' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\controller\OutputController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'outputService' defined in file [C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes\com\usama\calculatorproblemv2\service\OutputService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'riskCalcLogicService': Unsatisfied dependency expressed through field 'calcLogicServiceHelper': No qualifying bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-01 15:18:09,212 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field calcLogicServiceHelper in com.usama.calculatorproblemv2.service.RiskCalcLogicService required a bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.usama.calculatorproblemv2.service.RiskCalcLogicServiceHelper' in your configuration.
+
