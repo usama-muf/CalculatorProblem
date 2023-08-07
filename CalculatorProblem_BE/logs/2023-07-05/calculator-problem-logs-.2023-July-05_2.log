@@ -1,0 +1,214 @@
+2023-07-05 10:58:14,564 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 10148 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-05 10:58:14,587 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-05 10:58:18,941 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-05 10:58:22,451 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-05 10:58:23,243 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 9.454 seconds (process running for 10.901)
+2023-07-05 10:58:26,509 INFO c.u.c.c.RiskCalcLogicController [http-nio-8092-exec-2] Received POST request with body: com.usama.calculatorproblemv2.entity.RiskCalcLogic@566b2e26
+2023-07-05 10:58:26,602 INFO c.u.c.s.RiskCalcLogicService [http-nio-8092-exec-2] Data saved Successfully
+2023-07-05 11:00:00,130 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:00,132 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:00,378 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:00,459 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:00,582 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:00,610 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:00,728 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:00,754 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:00,856 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:01,011 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:01,011 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:01,104 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:01,122 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:01,213 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:01,232 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:01,319 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:01,338 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:01,431 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:02,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:02,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:02,101 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:02,118 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:02,221 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:02,238 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:02,319 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:02,337 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:02,412 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:03,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:03,018 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:03,100 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:03,128 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:03,227 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:03,244 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:03,345 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:03,367 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:03,465 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:04,020 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:04,020 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:04,105 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:04,126 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:04,258 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:04,277 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:04,361 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:04,381 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:04,451 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:05,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:05,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:05,079 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:05,099 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:05,171 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:05,186 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:05,258 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:05,278 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:05,349 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:06,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:06,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:06,117 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:06,139 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:06,248 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:06,267 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:06,342 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:06,356 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:06,451 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:07,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:07,019 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:07,081 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:07,095 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:07,167 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:07,177 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:07,288 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:07,359 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:07,447 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:08,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:08,017 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:08,076 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:08,091 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:08,144 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:08,159 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:08,220 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:08,235 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:08,293 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:09,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:09,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:09,048 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:09,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:09,108 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:09,121 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:09,163 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:09,174 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:09,224 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:10,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:10,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:10,066 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:10,079 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:10,126 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:10,139 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:10,192 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:10,208 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:10,260 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:11,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:11,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:11,060 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:11,084 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:11,137 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:11,152 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:11,217 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:11,231 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:11,292 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:12,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:12,019 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:12,060 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:12,080 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:12,125 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:12,139 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:12,186 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:12,201 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:12,254 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:13,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:13,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:13,059 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:13,079 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:13,128 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:13,142 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:13,199 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:13,215 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:13,279 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:14,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:14,020 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:14,070 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:14,088 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:14,133 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:14,145 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:14,195 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:14,207 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:14,257 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:15,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:15,006 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:15,041 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:15,051 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:15,098 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:15,109 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:15,158 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:15,173 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:15,221 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:16,012 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:16,012 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:16,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:16,055 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:16,097 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:16,107 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:16,152 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:16,164 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:16,208 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:17,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:17,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:17,054 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:17,083 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:17,153 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:17,166 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:17,216 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:17,232 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:17,280 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:18,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:18,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:18,052 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:18,069 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:18,102 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:18,112 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:18,151 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:18,162 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:18,200 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:19,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:19,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:19,045 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:19,061 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:19,101 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:19,111 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:19,147 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:19,156 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:19,195 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:20,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:20,018 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:20,057 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:20,071 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:20,110 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:20,125 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:20,178 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:20,195 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:20,243 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:21,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:21,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:21,045 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:21,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:21,102 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:21,114 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:21,153 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:21,166 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:21,202 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-05 11:00:22,012 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-05 11:00:22,012 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-05 11:00:22,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-05 11:00:22,061 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-05 11:00:22,097 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-05 11:00:22,107 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-05 11:00:22,145 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-05 11:00:22,159 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-05 11:00:22,197 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS

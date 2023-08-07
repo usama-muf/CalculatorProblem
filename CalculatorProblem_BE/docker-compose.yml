@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  mysqldb:
+    container_name: mysqldb
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: calculator_problem_v2
+    networks:
+      springboot-mysql-net:
+
+  calculator_problem_v2:
+    container_name: calculator_problem_v2
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8092:8092"
+    depends_on:
+      - mysqldb
+    networks:
+      springboot-mysql-net:
+    restart: on-failure
+
+networks:
+  springboot-mysql-net:

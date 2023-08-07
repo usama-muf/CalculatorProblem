@@ -1,0 +1,104 @@
+2023-07-08 20:07:29,952 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 22552 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-08 20:07:29,982 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "development"
+2023-07-08 20:07:41,644 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-08 20:07:42,137 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 13.311 seconds (process running for 21.073)
+2023-07-08 20:07:42,393 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:07:48,085 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:07:48,100 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:07:54,517 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:07:54,535 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:08:40,885 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:08:40,949 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:08:40,956 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:08:40,970 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:08:40,982 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:08:40,989 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-9] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:08:43,166 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:08:43,180 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:09:39,502 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:09:39,514 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:09:42,011 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:09:42,027 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request for Company_Risk_Score with companyName: CreditSuisse 
+2023-07-08 20:17:25,468 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:17:25,483 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:17:25,491 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:17:25,498 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-10] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:17:25,524 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:17:25,531 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:17:29,043 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:17:29,056 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:19:35,484 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:19:35,502 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:19:43,937 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:19:43,958 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:19:45,152 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:19:45,164 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:20:38,456 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:20:38,475 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:21:30,233 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:21:30,246 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:27:45,640 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:27:45,655 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:27:53,484 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:27:53,496 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:27:56,415 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:27:56,432 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:27:57,338 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:27:57,345 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:34:30,774 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:34:30,789 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:38:47,210 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:38:47,236 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:42:38,480 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:42:38,493 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:42:41,563 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:42:41,575 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:44:29,534 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:45:00,894 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:45:00,906 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:45:24,063 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:45:24,077 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:46:18,285 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:46:21,019 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:46:21,031 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:48:23,580 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:48:46,510 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:48:50,643 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:49:19,029 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:49:19,047 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:49:30,512 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:50:34,662 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:51:04,503 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:51:04,518 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received GET request for Company_Risk_Score with companyName: Infosys 
+2023-07-08 20:51:08,852 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:51:08,861 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:51:08,888 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-8] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:51:08,892 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-8] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:51:08,897 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:51:08,909 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-9] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:51:23,509 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received POST request for New_Company_Risk_Score_Row with body: com.usama.calculatorproblemv2.dto.CompanyRiskScoreRequest@499d1dda
+2023-07-08 20:51:23,544 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Successfully saved request in the database company_risk_score: com.usama.calculatorproblemv2.entity.CompanyRiskScore@5b521001
+2023-07-08 20:51:23,621 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-1] Initiated Risk_Dimension_Table updation based on new entries in company_risk_score table
+2023-07-08 20:51:27,770 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:51:27,779 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:51:27,848 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:51:27,857 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-4] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:51:27,868 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:51:27,872 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-5] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:51:34,119 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received DELETE request for Company_Risk_Score with companyName: TCS 
+2023-07-08 20:51:34,142 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-7] Successfully DELETED from the database company_risk_score with companyName: TCS
+2023-07-08 20:56:59,137 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-10] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:56:59,148 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request to fetch Unique Params in Company_Risk_Score table
+2023-07-08 20:56:59,159 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:56:59,165 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-2] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:56:59,174 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received Get Reqeust to fetch all data from the table company_risk_score
+2023-07-08 20:56:59,181 INFO c.u.c.s.CompanyRiskScoreService [http-nio-8092-exec-3] Successfully Fetched data from the database company_risk_score
+2023-07-08 20:57:02,282 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-4] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-08 20:57:02,294 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-5] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-08 20:57:19,282 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-6] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-08 20:57:19,294 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-7] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-08 21:09:57,881 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m49s459ms697µs200ns).
+2023-07-08 21:12:26,505 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-9] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-08 21:14:49,519 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-1] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-08 21:14:52,865 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-2] Received GET request for Company_Risk_Score with companyName: Nagarro 
+2023-07-08 21:14:52,877 INFO c.u.c.c.CompanyRiskScoreController [http-nio-8092-exec-3] Received GET request for Company_Risk_Score with companyName: Nagarro 

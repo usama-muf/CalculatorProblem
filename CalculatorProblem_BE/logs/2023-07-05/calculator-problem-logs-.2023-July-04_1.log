@@ -1,0 +1,1461 @@
+2023-07-04 18:37:18,310 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 13444 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-04 18:37:18,318 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 18:37:21,641 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-04 18:37:23,879 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 18:37:24,442 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 6.775 seconds (process running for 7.793)
+2023-07-04 18:37:29,508 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 18:37:29,649 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:37:29,653 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:37:29,789 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:37:29,846 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-04 18:37:29,906 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:37:29,922 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-04 18:37:29,987 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:37:29,998 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: TCS
+2023-07-04 18:37:30,045 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:37:30,063 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 18:37:51,869 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 18:37:51,877 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:37:51,877 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:37:51,948 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:37:51,960 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-04 18:37:52,002 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:37:52,016 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-04 18:37:52,071 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:37:52,121 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: TCS
+2023-07-04 18:37:52,201 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:37:52,218 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 18:37:52,231 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 18:37:52,238 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:37:52,239 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:37:52,292 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:37:52,305 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Infosys
+2023-07-04 18:37:52,351 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:37:52,362 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: Nagarro
+2023-07-04 18:37:52,406 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:37:52,416 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Calculating output params for compnay: TCS
+2023-07-04 18:37:52,457 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:37:52,470 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 18:38:47,635 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 13444 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-04 18:38:47,636 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 18:38:48,136 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-04 18:38:48,450 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 18:38:48,543 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.946 seconds (process running for 91.857)
+2023-07-04 18:38:54,553 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 18:38:54,565 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:38:54,565 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:38:54,668 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:38:54,686 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:38:54,721 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:38:54,732 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:38:54,780 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:38:54,794 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:38:54,833 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:38:54,849 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 18:38:54,866 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 18:38:54,873 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:38:54,873 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:38:54,932 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:38:54,943 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:38:54,993 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:38:55,005 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:38:55,132 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:38:55,142 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:38:55,187 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:38:55,199 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 18:39:00,513 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 18:39:00,517 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:39:00,520 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:39:00,585 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:39:00,601 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:39:00,660 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:39:00,676 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:39:00,757 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:39:00,773 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:39:00,843 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:39:00,868 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 18:39:00,887 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 18:39:00,892 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:39:00,892 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:39:00,949 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:39:00,994 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:39:01,091 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:39:01,114 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:39:01,175 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:39:01,208 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:39:01,275 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:39:01,291 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 18:39:40,419 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-04 18:39:40,427 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:39:40,427 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:39:40,475 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:39:40,487 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:39:40,530 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:39:40,538 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:39:40,571 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:39:40,580 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:39:40,606 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:39:40,617 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-04 18:39:40,625 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Updating Output table
+2023-07-04 18:39:40,630 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:39:40,631 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:39:40,666 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:39:40,674 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:39:40,705 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:39:40,718 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:39:40,778 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:39:40,813 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:39:40,859 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:39:40,870 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Successfully fetched all the data from the table 'output'
+2023-07-04 18:40:11,499 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 13444 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-04 18:40:11,500 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 18:40:11,934 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-04 18:40:12,272 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 18:40:12,392 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.928 seconds (process running for 175.705)
+2023-07-04 18:40:15,998 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 13444 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-04 18:40:16,001 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 18:40:16,623 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-04 18:40:16,920 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 18:40:17,072 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 1.132 seconds (process running for 180.386)
+2023-07-04 18:40:18,608 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 13444 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-04 18:40:18,609 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 18:40:19,039 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-04 18:40:19,263 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 18:40:19,407 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 0.831 seconds (process running for 182.72)
+2023-07-04 18:40:20,177 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 18:40:20,190 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:40:20,192 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:40:20,279 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:40:20,297 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:40:20,343 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:40:20,355 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:40:20,392 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:40:20,405 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:40:20,454 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:40:20,470 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 18:40:20,486 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 18:40:20,490 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:40:20,490 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:40:20,559 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:40:20,590 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:40:20,668 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:40:20,677 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:40:20,720 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:40:20,730 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:40:20,767 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:40:20,780 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 18:41:14,799 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 18:41:14,804 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:41:14,804 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:41:14,856 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:41:14,869 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:41:14,913 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:41:14,924 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:41:14,963 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:41:14,972 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:41:15,017 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:41:15,031 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 18:41:15,054 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 18:41:15,056 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-2] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:41:15,056 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:41:15,108 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:41:15,125 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Infosys
+2023-07-04 18:41:15,245 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:41:15,260 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: Nagarro
+2023-07-04 18:41:15,317 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:41:15,325 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Calculating output params for compnay: TCS
+2023-07-04 18:41:15,387 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-2] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:41:15,404 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 18:55:00,784 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Updating Output table
+2023-07-04 18:55:00,784 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-3] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:55:00,784 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:55:00,847 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:55:00,873 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: Infosys
+2023-07-04 18:55:00,920 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:55:00,932 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: Nagarro
+2023-07-04 18:55:00,969 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:55:00,983 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: TCS
+2023-07-04 18:55:01,030 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:55:01,047 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Successfully fetched all the data from the table 'output'
+2023-07-04 18:55:01,061 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-07-04 18:55:01,065 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-3] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:55:01,065 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: CreditSuisse
+2023-07-04 18:55:01,159 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 18:55:01,203 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: Infosys
+2023-07-04 18:55:01,290 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 18:55:01,300 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: Nagarro
+2023-07-04 18:55:01,346 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 18:55:01,357 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Calculating output params for compnay: TCS
+2023-07-04 18:55:01,403 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-3] Successfully saving data to Output table for compnay: TCS
+2023-07-04 18:55:01,418 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-07-04 18:59:59,995 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 18:59:59,995 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:00,065 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:00,089 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:00,140 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:00,155 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:00,203 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:00,219 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:00,271 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:01,016 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:01,016 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:01,064 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:01,095 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:01,148 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:01,161 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:01,202 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:01,218 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:01,281 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:02,001 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:02,001 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:02,058 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:02,083 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:02,122 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:02,147 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:02,189 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:02,206 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:02,254 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:03,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:03,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:03,058 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:03,081 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:03,125 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:03,140 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:03,192 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:03,208 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:03,257 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:04,024 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:04,024 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:04,075 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:04,095 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:04,141 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:04,155 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:04,202 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:04,218 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:04,260 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:05,007 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:05,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:05,057 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:05,070 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:05,114 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:05,127 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:05,173 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:05,182 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:05,223 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:06,021 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:06,021 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:06,066 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:06,092 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:06,141 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:06,159 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:06,199 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:06,217 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:06,254 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:07,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:07,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:07,065 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:07,085 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:07,139 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:07,151 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:07,192 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:07,198 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:07,251 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:08,023 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:08,024 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:08,082 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:08,106 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:08,156 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:08,170 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:08,206 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:08,214 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:08,258 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:09,007 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:09,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:09,067 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:09,089 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:09,140 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:09,158 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:09,188 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:09,207 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:09,242 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:10,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:10,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:10,055 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:10,069 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:10,107 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:10,115 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:10,156 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:10,175 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:10,213 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:11,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:11,018 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:11,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:11,079 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:11,118 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:11,130 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:11,163 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:11,179 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:11,227 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:12,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:12,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:12,057 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:12,079 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:12,112 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:12,129 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:12,177 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:12,186 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:12,230 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:13,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:13,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:13,069 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:13,094 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:13,138 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:13,147 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:13,188 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:13,204 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:13,253 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:14,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:14,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:14,054 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:14,070 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:14,120 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:14,131 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:14,169 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:14,181 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:14,219 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:15,001 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:15,001 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:15,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:15,065 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:15,114 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:15,131 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:15,163 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:15,179 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:15,212 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:16,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:16,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:16,040 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:16,061 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:16,096 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:16,114 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:16,146 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:16,162 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:16,218 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:17,002 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:17,002 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:17,051 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:17,066 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:17,114 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:17,130 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:17,163 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:17,186 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:17,232 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:18,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:18,019 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:18,051 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:18,083 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:18,130 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:18,147 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:18,188 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:18,195 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:18,249 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:19,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:19,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:19,057 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:19,073 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:19,120 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:19,137 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:19,191 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:19,203 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:19,252 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:20,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:20,018 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:20,049 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:20,074 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:20,106 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:20,126 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:20,148 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:20,164 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:20,197 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:21,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:21,015 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:21,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:21,063 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:21,112 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:21,123 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:21,155 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:21,175 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:21,224 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:22,031 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:22,031 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:22,063 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:22,079 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:22,127 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:22,142 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:22,190 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:22,207 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:22,243 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:23,016 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:23,016 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:23,053 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:23,083 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:23,121 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:23,135 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:23,167 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:23,167 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:23,204 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:24,023 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:24,023 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:24,056 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:24,088 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:24,119 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:24,142 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:24,176 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:24,176 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:24,224 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:25,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:25,016 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:25,059 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:25,074 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:25,122 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:25,139 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:25,185 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:25,202 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:25,233 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:26,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:26,015 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:26,063 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:26,078 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:26,109 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:26,126 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:26,158 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:26,174 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:26,206 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:27,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:27,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:27,052 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:27,067 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:27,117 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:27,133 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:27,165 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:27,182 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:27,235 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:28,020 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:28,020 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:28,061 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:28,086 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:28,124 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:28,124 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:28,174 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:28,189 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:28,238 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:29,015 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:29,015 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:29,047 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:29,079 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:29,120 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:29,136 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:29,169 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:29,185 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:29,233 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:30,012 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:30,012 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:30,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:30,060 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:30,098 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:30,115 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:30,146 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:30,162 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:30,207 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:31,017 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:31,017 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:31,054 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:31,089 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:31,121 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:31,138 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:31,154 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:31,181 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:31,201 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:32,018 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:32,018 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:32,065 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:32,081 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:32,132 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:32,147 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:32,181 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:32,196 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:32,232 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:33,003 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:33,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:33,055 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:33,082 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:33,126 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:33,138 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:33,182 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:33,191 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:33,223 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:34,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:34,006 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:34,042 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:34,056 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:34,093 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:34,106 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:34,141 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:34,155 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:34,182 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:35,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:35,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:35,039 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:35,048 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:35,081 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:35,103 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:35,145 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:35,155 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:35,188 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:36,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:36,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:36,054 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:36,081 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:36,124 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:36,139 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:36,178 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:36,191 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:36,230 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:37,013 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:37,013 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:37,045 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:37,071 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:37,112 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:37,121 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:37,153 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:37,170 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:37,214 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:38,003 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:38,003 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:38,047 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:38,066 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:38,106 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:38,120 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:38,153 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:38,166 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:38,198 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:39,014 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:39,014 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:39,056 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:39,073 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:39,104 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:39,112 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:39,154 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:39,169 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:39,203 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:40,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:40,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:40,045 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:40,076 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:40,110 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:40,126 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:40,169 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:40,171 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:40,219 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:41,027 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:41,027 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:41,080 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:41,105 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:41,144 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:41,156 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:41,189 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:41,189 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:41,237 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:42,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:42,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:42,057 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:42,076 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:42,113 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:42,122 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:42,171 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:42,178 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:42,211 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:43,019 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:43,019 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:43,058 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:43,074 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:43,109 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:43,126 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:43,161 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:43,177 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:43,225 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:44,011 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:44,011 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:44,056 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:44,068 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:44,101 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:44,113 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:44,145 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:44,162 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:44,195 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:45,034 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:45,034 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:45,078 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:45,094 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:45,141 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:45,155 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:45,186 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:45,196 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:45,230 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:46,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:46,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:46,062 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:46,076 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:46,119 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:46,121 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:46,153 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:46,176 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:46,210 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:47,016 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:47,016 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:47,063 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:47,081 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:47,127 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:47,138 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:47,177 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:47,185 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:47,227 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:48,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:48,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:48,051 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:48,067 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:48,101 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:48,111 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:48,143 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:48,143 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:48,192 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:49,005 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:49,005 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:49,050 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:49,053 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:49,092 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:49,104 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:49,125 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:49,143 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:49,176 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:50,011 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:50,011 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:50,046 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:50,066 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:50,100 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:50,113 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:50,150 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:50,158 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:50,191 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:51,000 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:51,000 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:51,042 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:51,061 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:51,095 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:51,112 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:51,153 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:51,161 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:51,195 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:52,012 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:52,012 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:52,048 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:52,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:52,109 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:52,115 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:52,159 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:52,170 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:52,195 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:53,008 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:53,008 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:53,050 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:53,067 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:53,107 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:53,117 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:53,151 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:53,159 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:53,192 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:54,007 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:54,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:54,044 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:54,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:54,106 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:54,119 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:54,156 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:54,167 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:54,207 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:55,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:55,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:55,059 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:55,072 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:55,115 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:55,128 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:55,170 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:55,185 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:55,226 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:56,010 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:56,010 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:56,050 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:56,062 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:56,098 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:56,116 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:56,161 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:56,173 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:56,215 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:57,007 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:57,007 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:57,040 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:57,046 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:57,085 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:57,093 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:57,130 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:57,147 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:57,180 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:58,006 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:58,006 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:58,038 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:58,056 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:58,080 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:58,096 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:58,122 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:58,140 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:58,178 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:00:59,009 INFO c.u.c.s.CompanyRiskScoreService [scheduling-1] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:00:59,009 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:00:59,036 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:00:59,047 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Infosys
+2023-07-04 19:00:59,078 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:00:59,087 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: Nagarro
+2023-07-04 19:00:59,110 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:00:59,126 INFO c.u.c.s.OutputService [scheduling-1] Calculating output params for compnay: TCS
+2023-07-04 19:00:59,139 INFO c.u.c.s.OutputService [scheduling-1] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:13,806 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-04 19:02:13,817 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:02:13,818 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:02:13,843 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:02:13,857 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-04 19:02:13,891 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:02:13,897 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-04 19:02:13,932 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:02:13,939 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: TCS
+2023-07-04 19:02:13,962 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:13,979 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-04 19:02:13,992 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-04 19:02:13,996 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:02:13,996 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:02:14,026 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:02:14,033 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-04 19:02:14,068 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:02:14,076 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-04 19:02:14,119 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:02:14,130 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: TCS
+2023-07-04 19:02:14,157 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:14,173 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-04 19:02:27,794 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 19:02:27,803 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:02:27,803 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:02:27,832 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:02:27,855 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-04 19:02:27,883 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:02:27,894 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-04 19:02:27,916 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:02:27,933 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: TCS
+2023-07-04 19:02:27,970 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:27,982 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 19:02:27,999 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 19:02:28,003 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:02:28,004 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:02:28,038 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:02:28,050 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-04 19:02:28,075 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:02:28,083 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-04 19:02:28,107 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:02:28,116 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: TCS
+2023-07-04 19:02:28,138 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:28,149 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 19:02:28,795 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 19:02:28,801 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:02:28,802 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:02:28,829 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:02:28,839 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-04 19:02:28,859 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:02:28,871 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-04 19:02:28,892 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:02:28,901 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: TCS
+2023-07-04 19:02:28,925 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:28,943 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 19:02:28,956 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 19:02:28,960 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:02:28,960 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:02:28,976 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:02:28,993 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-04 19:02:29,035 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:02:29,046 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-04 19:02:29,065 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:02:29,075 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: TCS
+2023-07-04 19:02:29,107 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:29,123 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 19:02:33,546 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-04 19:02:33,546 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Updating Output table
+2023-07-04 19:02:33,550 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-4] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:02:33,550 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:02:33,563 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-5] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:02:33,563 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-5] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:02:33,578 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:02:33,586 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Infosys
+2023-07-04 19:02:33,588 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-5] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:02:33,596 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-5] Calculating output params for compnay: Infosys
+2023-07-04 19:02:33,610 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:02:33,615 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-5] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:02:33,622 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: Nagarro
+2023-07-04 19:02:33,630 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-5] Calculating output params for compnay: Nagarro
+2023-07-04 19:02:33,649 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:02:33,653 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-5] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:02:33,661 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Calculating output params for compnay: TCS
+2023-07-04 19:02:33,667 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-5] Calculating output params for compnay: TCS
+2023-07-04 19:02:33,685 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-4] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:33,698 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-04 19:02:33,699 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-5] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:02:33,710 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Successfully fetched all the data from the table 'output'
+2023-07-04 19:04:38,791 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-04 19:04:38,791 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:04:38,791 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:04:38,823 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:04:38,838 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:04:38,870 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:04:38,882 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:04:38,923 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:04:38,935 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:04:38,965 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:04:38,983 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-04 19:04:38,996 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-04 19:04:38,999 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:04:38,999 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:04:39,023 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:04:39,035 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:04:39,062 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:04:39,079 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:04:39,110 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:04:39,127 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:04:39,144 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:04:39,168 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-04 19:04:42,856 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 19:04:42,856 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 19:04:42,859 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:04:42,860 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:04:42,860 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-7] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:04:42,860 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:04:42,891 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:04:42,891 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:04:42,906 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:04:42,910 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Infosys
+2023-07-04 19:04:42,932 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:04:42,935 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:04:42,940 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:04:42,947 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Nagarro
+2023-07-04 19:04:42,966 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:04:42,970 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:04:42,975 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:04:42,982 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: TCS
+2023-07-04 19:04:43,007 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:04:43,009 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:04:43,016 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 19:04:43,021 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 19:04:59,747 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 19:04:59,752 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-7] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:04:59,752 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:04:59,776 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:04:59,795 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Infosys
+2023-07-04 19:04:59,828 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:04:59,833 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Nagarro
+2023-07-04 19:04:59,860 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:04:59,868 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: TCS
+2023-07-04 19:04:59,900 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:04:59,910 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 19:05:01,489 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 19:05:01,490 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-04 19:05:01,493 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-7] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:05:01,493 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:05:01,494 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:05:01,494 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:05:01,519 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:05:01,519 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:05:01,536 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:05:01,540 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Infosys
+2023-07-04 19:05:01,565 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:05:01,572 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:05:01,572 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:05:01,583 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Nagarro
+2023-07-04 19:05:01,599 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:05:01,612 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:05:01,613 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:05:01,620 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: TCS
+2023-07-04 19:05:01,639 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:05:01,642 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:05:01,649 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-04 19:05:01,654 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 19:05:18,792 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Updating Output table
+2023-07-04 19:05:18,795 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-7] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:05:18,796 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:05:18,820 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:05:18,841 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Infosys
+2023-07-04 19:05:18,867 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:05:18,877 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Nagarro
+2023-07-04 19:05:18,918 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:05:18,930 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: TCS
+2023-07-04 19:05:18,960 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:05:18,969 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Successfully fetched all the data from the table 'output'
+2023-07-04 19:05:21,346 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-07-04 19:05:21,346 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Updating Output table
+2023-07-04 19:05:21,349 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:05:21,350 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:05:21,350 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-7] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:05:21,350 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:05:21,372 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:05:21,375 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:05:21,382 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:05:21,390 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Infosys
+2023-07-04 19:05:21,407 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:05:21,415 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:05:21,421 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:05:21,430 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Nagarro
+2023-07-04 19:05:21,444 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:05:21,452 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:05:21,462 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:05:21,470 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: TCS
+2023-07-04 19:05:21,477 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:05:21,487 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Successfully fetched all the data from the table 'output'
+2023-07-04 19:05:21,495 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:05:21,503 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-07-04 19:05:45,803 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-04 19:05:45,808 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-7] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:05:45,809 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:05:45,836 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:05:45,856 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Infosys
+2023-07-04 19:05:45,884 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:05:45,901 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Nagarro
+2023-07-04 19:05:45,927 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:05:45,936 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: TCS
+2023-07-04 19:05:45,964 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:05:45,976 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-04 19:05:57,789 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-04 19:05:57,789 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-7] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:05:57,789 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:05:57,823 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:05:57,846 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Infosys
+2023-07-04 19:05:57,872 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:05:57,880 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Nagarro
+2023-07-04 19:05:57,907 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:05:57,912 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: TCS
+2023-07-04 19:05:57,945 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:05:57,954 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-04 19:06:04,315 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 19:06:04,317 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 19:06:04,320 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-7] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:06:04,321 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:06:04,322 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:06:04,322 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:06:04,350 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:06:04,350 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:06:04,361 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:06:04,367 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Infosys
+2023-07-04 19:06:04,390 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:06:04,395 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:06:04,404 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:06:04,409 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: Nagarro
+2023-07-04 19:06:04,429 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:06:04,438 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:06:04,438 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:06:04,450 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Calculating output params for compnay: TCS
+2023-07-04 19:06:04,462 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:06:04,483 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-7] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:06:04,484 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 19:06:04,497 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 19:07:06,791 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 19:07:06,796 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:07:06,798 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:07:06,825 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:07:06,842 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:07:06,867 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:07:06,876 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:07:06,901 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:07:06,914 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:07:06,939 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:07:06,939 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 19:07:18,778 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Updating Output table
+2023-07-04 19:07:18,780 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Updating Output table
+2023-07-04 19:07:18,783 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:07:18,783 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:07:18,783 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-8] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:07:18,784 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:07:18,810 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:07:18,811 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:07:18,819 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:07:18,824 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: Infosys
+2023-07-04 19:07:18,847 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:07:18,854 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:07:18,856 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:07:18,863 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: Nagarro
+2023-07-04 19:07:18,880 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:07:18,889 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:07:18,891 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:07:18,900 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: TCS
+2023-07-04 19:07:18,916 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:07:18,933 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Successfully fetched all the data from the table 'output'
+2023-07-04 19:07:18,937 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:07:18,949 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Successfully fetched all the data from the table 'output'
+2023-07-04 19:07:33,645 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-07-04 19:07:33,646 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-04 19:07:33,649 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-8] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:07:33,649 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:07:33,651 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:07:33,651 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:07:33,674 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:07:33,677 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:07:33,689 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: Infosys
+2023-07-04 19:07:33,695 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:07:33,715 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:07:33,718 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:07:33,727 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: Nagarro
+2023-07-04 19:07:33,732 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:07:33,752 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:07:33,753 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:07:33,763 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:07:33,765 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: TCS
+2023-07-04 19:07:33,783 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:07:33,788 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:07:33,795 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-04 19:07:33,798 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-07-04 19:07:34,739 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 19:07:34,739 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-04 19:07:34,744 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-8] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:07:34,744 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-6] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:07:34,744 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:07:34,744 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:07:34,769 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:07:34,775 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:07:34,785 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Infosys
+2023-07-04 19:07:34,790 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: Infosys
+2023-07-04 19:07:34,810 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:07:34,815 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:07:34,817 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: Nagarro
+2023-07-04 19:07:34,825 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: Nagarro
+2023-07-04 19:07:34,845 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:07:34,850 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:07:34,853 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Calculating output params for compnay: TCS
+2023-07-04 19:07:34,859 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Calculating output params for compnay: TCS
+2023-07-04 19:07:34,875 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-6] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:07:34,884 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-8] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:07:34,892 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-04 19:07:34,894 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 19:13:04,785 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-04 19:13:04,793 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-9] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:13:04,793 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:13:04,828 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:13:04,854 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: Infosys
+2023-07-04 19:13:04,888 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:13:04,896 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: Nagarro
+2023-07-04 19:13:04,929 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:13:04,937 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: TCS
+2023-07-04 19:13:04,970 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:13:04,985 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-04 19:13:05,003 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 19:13:05,008 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-9] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:13:05,009 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:13:05,038 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:13:05,055 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: Infosys
+2023-07-04 19:13:05,080 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:13:05,086 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: Nagarro
+2023-07-04 19:13:05,112 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:13:05,124 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: TCS
+2023-07-04 19:13:05,149 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:13:05,169 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 19:13:16,212 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Updating Output table
+2023-07-04 19:13:16,212 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Updating Output table
+2023-07-04 19:13:16,216 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-9] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:13:16,216 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:13:16,225 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-10] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:13:16,225 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-10] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:13:16,241 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:13:16,250 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: Infosys
+2023-07-04 19:13:16,252 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-10] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:13:16,262 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-10] Calculating output params for compnay: Infosys
+2023-07-04 19:13:16,276 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:13:16,284 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-10] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:13:16,284 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: Nagarro
+2023-07-04 19:13:16,301 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-10] Calculating output params for compnay: Nagarro
+2023-07-04 19:13:16,308 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:13:16,315 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Calculating output params for compnay: TCS
+2023-07-04 19:13:16,323 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-10] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:13:16,330 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-10] Calculating output params for compnay: TCS
+2023-07-04 19:13:16,340 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-9] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:13:16,351 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Successfully fetched all the data from the table 'output'
+2023-07-04 19:13:16,354 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-10] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:13:16,365 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Successfully fetched all the data from the table 'output'
+2023-07-04 19:17:18,793 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-04 19:17:18,793 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:17:18,793 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:17:18,833 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:17:18,849 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:17:18,888 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:17:18,897 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:17:18,922 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:17:18,937 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:17:18,966 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:17:18,976 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-04 19:17:18,985 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 19:17:18,988 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:17:18,988 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:17:19,018 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:17:19,029 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:17:19,061 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:17:19,072 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:17:19,102 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:17:19,111 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:17:19,133 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:17:19,141 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 19:17:21,735 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 19:17:21,738 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:17:21,738 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:17:21,755 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:17:21,779 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:17:21,808 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:17:21,821 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:17:21,840 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:17:21,855 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:17:21,882 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:17:21,892 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 19:17:21,900 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 19:17:21,903 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:17:21,903 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:17:21,923 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:17:21,941 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:17:21,966 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:17:21,972 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:17:21,999 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:17:22,010 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:17:22,035 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:17:22,050 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 19:17:24,376 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-04 19:17:24,380 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:17:24,380 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:17:24,407 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:17:24,417 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:17:24,444 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:17:24,456 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:17:24,483 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:17:24,491 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:17:24,515 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:17:24,517 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-04 19:17:24,535 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 19:17:24,539 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:17:24,539 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:17:24,568 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:17:24,577 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:17:24,602 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:17:24,616 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:17:24,633 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:17:24,648 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:17:24,674 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:17:24,682 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 19:17:25,486 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Updating Output table
+2023-07-04 19:17:25,490 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:17:25,491 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:17:25,519 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:17:25,527 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:17:25,551 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:17:25,551 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:17:25,584 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:17:25,598 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:17:25,622 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:17:25,632 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Successfully fetched all the data from the table 'output'
+2023-07-04 19:17:25,639 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Updating Output table
+2023-07-04 19:17:25,642 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:17:25,642 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:17:25,670 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:17:25,683 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:17:25,706 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:17:25,719 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:17:25,747 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:17:25,756 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:17:25,785 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:17:25,787 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Successfully fetched all the data from the table 'output'
+2023-07-04 19:18:15,784 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-07-04 19:18:15,784 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:18:15,784 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:18:15,807 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:18:15,823 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:18:15,854 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:18:15,871 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:18:15,899 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:18:15,902 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:18:15,934 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:18:15,954 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-07-04 19:18:15,970 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-04 19:18:15,974 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:18:15,975 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:18:16,006 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:18:16,018 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:18:16,054 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:18:16,063 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:18:16,091 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:18:16,100 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:18:16,124 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:18:16,138 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-04 19:18:19,200 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-04 19:18:19,202 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 19:18:19,204 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:18:19,204 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:18:19,215 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-12] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:18:19,215 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:18:19,233 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:18:19,237 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:18:19,248 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:18:19,252 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Calculating output params for compnay: Infosys
+2023-07-04 19:18:19,272 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:18:19,275 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:18:19,280 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:18:19,286 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Calculating output params for compnay: Nagarro
+2023-07-04 19:18:19,303 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:18:19,303 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:18:19,311 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Calculating output params for compnay: TCS
+2023-07-04 19:18:19,317 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:18:19,330 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:18:19,338 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:18:19,341 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 19:18:19,355 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-04 19:18:43,784 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 19:18:43,784 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:18:43,784 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:18:43,800 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:18:43,829 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:18:43,866 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:18:43,871 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:18:43,901 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:18:43,910 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:18:43,938 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:18:43,950 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 19:18:43,957 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 19:18:43,960 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:18:43,961 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:18:44,002 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:18:44,015 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:18:44,050 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:18:44,068 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:18:44,101 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:18:44,112 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:18:44,145 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:18:44,159 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 19:18:45,497 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-04 19:18:45,501 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-11] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:18:45,501 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:18:45,503 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 19:18:45,506 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-12] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:18:45,506 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:18:45,524 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:18:45,526 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:18:45,538 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Calculating output params for compnay: Infosys
+2023-07-04 19:18:45,544 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Infosys
+2023-07-04 19:18:45,556 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:18:45,566 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Calculating output params for compnay: Nagarro
+2023-07-04 19:18:45,573 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:18:45,583 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: Nagarro
+2023-07-04 19:18:45,589 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:18:45,596 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Calculating output params for compnay: TCS
+2023-07-04 19:18:45,607 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:18:45,616 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Calculating output params for compnay: TCS
+2023-07-04 19:18:45,618 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-12] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:18:45,629 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 19:18:45,645 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-11] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:18:45,658 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-04 19:22:03,844 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-07-04 19:22:03,855 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-13] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:22:03,855 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:22:03,877 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:22:03,895 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Infosys
+2023-07-04 19:22:03,924 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:22:03,933 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Nagarro
+2023-07-04 19:22:03,967 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:22:03,980 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: TCS
+2023-07-04 19:22:04,010 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:22:04,022 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-07-04 19:22:04,032 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-04 19:22:04,035 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-13] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:22:04,035 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:22:04,066 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:22:04,075 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Infosys
+2023-07-04 19:22:04,111 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:22:04,114 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Nagarro
+2023-07-04 19:22:04,150 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:22:04,158 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: TCS
+2023-07-04 19:22:04,179 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:22:04,193 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-04 19:22:12,495 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 19:22:12,497 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-04 19:22:12,499 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-13] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:22:12,499 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:22:12,501 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-14] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:22:12,501 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:22:12,522 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:22:12,524 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:22:12,537 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Infosys
+2023-07-04 19:22:12,542 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Calculating output params for compnay: Infosys
+2023-07-04 19:22:12,558 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:22:12,564 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:22:12,568 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Nagarro
+2023-07-04 19:22:12,575 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Calculating output params for compnay: Nagarro
+2023-07-04 19:22:12,589 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:22:12,593 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:22:12,605 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: TCS
+2023-07-04 19:22:12,610 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Calculating output params for compnay: TCS
+2023-07-04 19:22:12,627 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:22:12,627 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:22:12,637 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
+2023-07-04 19:22:12,644 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 19:22:53,785 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 19:22:53,785 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-13] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:22:53,785 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:22:53,817 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:22:53,833 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Infosys
+2023-07-04 19:22:53,857 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:22:53,873 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Nagarro
+2023-07-04 19:22:53,902 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:22:53,906 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: TCS
+2023-07-04 19:22:53,945 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:22:53,957 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 19:23:01,786 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 19:23:01,786 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-13] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:23:01,794 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:23:01,826 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:23:01,843 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Infosys
+2023-07-04 19:23:01,870 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:23:01,886 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Nagarro
+2023-07-04 19:23:01,902 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:23:01,919 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: TCS
+2023-07-04 19:23:01,944 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:23:01,961 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 19:23:01,986 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 19:23:01,990 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-13] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:23:01,990 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:23:02,011 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:23:02,027 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Infosys
+2023-07-04 19:23:02,052 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:23:02,068 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: Nagarro
+2023-07-04 19:23:02,094 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:23:02,101 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Calculating output params for compnay: TCS
+2023-07-04 19:23:02,140 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-13] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:23:02,150 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 19:24:01,059 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CalculatorProblemV2Application using Java 17.0.5 with PID 13444 (C:\Users\mohammedusama\spring-sts\CalculatorProblemV2\target\classes started by mohammedusama in C:\Users\mohammedusama\spring-sts\CalculatorProblemV2)
+2023-07-04 19:24:01,060 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 19:24:01,851 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-04 19:24:02,111 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 19:24:02,167 INFO o.s.b.StartupInfoLogger [restartedMain] Started CalculatorProblemV2Application in 1.157 seconds (process running for 2805.496)
+2023-07-04 19:24:48,031 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Updating Output table
+2023-07-04 19:24:48,032 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Updating Output table
+2023-07-04 19:24:48,042 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-14] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:24:48,042 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:24:48,048 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:24:48,048 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:24:48,130 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:24:48,134 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:24:48,144 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Calculating output params for compnay: Infosys
+2023-07-04 19:24:48,149 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:24:48,173 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:24:48,181 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Calculating output params for compnay: Nagarro
+2023-07-04 19:24:48,183 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:24:48,191 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:24:48,209 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:24:48,217 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Calculating output params for compnay: TCS
+2023-07-04 19:24:48,223 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:24:48,235 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:24:48,241 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-14] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:24:48,258 INFO c.u.c.s.OutputService [http-nio-8092-exec-2] Successfully fetched all the data from the table 'output'
+2023-07-04 19:24:48,271 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:24:48,291 INFO c.u.c.s.OutputService [http-nio-8092-exec-1] Successfully fetched all the data from the table 'output'
+2023-07-04 19:25:25,629 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Updating Output table
+2023-07-04 19:25:25,631 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:25:25,631 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:25:25,670 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:25:25,685 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:25:25,707 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:25:25,722 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:25:25,739 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:25:25,757 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:25:25,777 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:25:25,789 INFO c.u.c.s.OutputService [http-nio-8092-exec-3] Successfully fetched all the data from the table 'output'
+2023-07-04 19:25:25,804 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Updating Output table
+2023-07-04 19:25:25,809 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:25:25,809 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:25:25,827 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:25:25,836 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:25:25,857 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:25:25,877 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:25:25,903 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:25:25,912 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:25:25,938 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:25:25,947 INFO c.u.c.s.OutputService [http-nio-8092-exec-4] Successfully fetched all the data from the table 'output'
+2023-07-04 19:25:27,291 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Updating Output table
+2023-07-04 19:25:27,296 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:25:27,296 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:25:27,324 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:25:27,338 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:25:27,356 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:25:27,371 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:25:27,388 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:25:27,402 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:25:27,422 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:25:27,438 INFO c.u.c.s.OutputService [http-nio-8092-exec-5] Successfully fetched all the data from the table 'output'
+2023-07-04 19:25:27,449 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Updating Output table
+2023-07-04 19:25:27,452 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:25:27,452 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:25:27,472 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:25:27,486 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:25:27,507 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:25:27,521 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:25:27,556 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:25:27,557 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:25:27,587 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:25:27,600 INFO c.u.c.s.OutputService [http-nio-8092-exec-6] Successfully fetched all the data from the table 'output'
+2023-07-04 19:25:28,820 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Updating Output table
+2023-07-04 19:25:28,824 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:25:28,825 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:25:28,855 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:25:28,867 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:25:28,891 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:25:28,900 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:25:28,922 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:25:28,922 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:25:28,954 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:25:28,954 INFO c.u.c.s.OutputService [http-nio-8092-exec-7] Successfully fetched all the data from the table 'output'
+2023-07-04 19:25:28,977 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Updating Output table
+2023-07-04 19:25:28,977 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:25:28,977 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:25:29,001 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:25:29,009 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:25:29,037 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:25:29,037 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:25:29,074 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:25:29,085 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:25:29,108 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:25:29,116 INFO c.u.c.s.OutputService [http-nio-8092-exec-8] Successfully fetched all the data from the table 'output'
+2023-07-04 19:25:30,646 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Updating Output table
+2023-07-04 19:25:30,647 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:25:30,647 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:25:30,672 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:25:30,688 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:25:30,713 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:25:30,722 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:25:30,738 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:25:30,755 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:25:30,770 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:25:30,788 INFO c.u.c.s.OutputService [http-nio-8092-exec-9] Successfully fetched all the data from the table 'output'
+2023-07-04 19:25:30,798 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Updating Output table
+2023-07-04 19:25:30,802 INFO c.u.c.s.CompanyRiskScoreService [ForkJoinPool.commonPool-worker-15] Successfully Fetched data from the database company_risk_score
+2023-07-04 19:25:30,803 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: CreditSuisse
+2023-07-04 19:25:30,820 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: CreditSuisse
+2023-07-04 19:25:30,835 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Infosys
+2023-07-04 19:25:30,856 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Infosys
+2023-07-04 19:25:30,869 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: Nagarro
+2023-07-04 19:25:30,885 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: Nagarro
+2023-07-04 19:25:30,903 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Calculating output params for compnay: TCS
+2023-07-04 19:25:30,925 INFO c.u.c.s.OutputService [ForkJoinPool.commonPool-worker-15] Successfully saving data to Output table for compnay: TCS
+2023-07-04 19:25:30,936 INFO c.u.c.s.OutputService [http-nio-8092-exec-10] Successfully fetched all the data from the table 'output'
