@@ -1,0 +1,15 @@
+.table-container {
+    padding: 60px;
+    /* Add any additional styles for the table container */
+}
+
+.btn-container {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+
+    .button {
+        margin: 0 20px;
+    }
+
+}

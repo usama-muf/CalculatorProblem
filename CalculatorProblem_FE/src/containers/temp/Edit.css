@@ -1,0 +1,10 @@
+.btn-container {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+
+    .button {
+        margin: 0 20px;
+    }
+
+}
