@@ -1,4 +1,8 @@
 ## Company Calculator
+
+###Problem Statement
+The goal is to develop a comprehensive solution, that allows user to manipulate the data, apply the formula, and view the result in a user-friendly manner.
+
 ![Screenshot (89)](https://github.com/usama-muf/CalculatorProblem/assets/60036208/ba8a6637-75e2-4617-bce1-e8dcabb970f5)
 ![Screenshot (90)](https://github.com/usama-muf/CalculatorProblem/assets/60036208/866a8f5e-956a-4814-be88-7bbe821ad8fe)
 ![Screenshot (91)](https://github.com/usama-muf/CalculatorProblem/assets/60036208/f5f2fd58-5dd0-4dd2-8100-49953eb56331)
